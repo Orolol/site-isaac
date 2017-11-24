@@ -1,0 +1,108 @@
+<template>
+<div>
+  <transition name="fade">
+  <div class="oeuvre" v-if="!slideshow">
+    <div class="oeuvre-texte">
+      <p class="oeuvre-texte-titre"> {{titre}} </p>
+      <div class="oeuvre-texte-content">
+        <p v-for="para in contenu">{{para}}</p>
+      </div>
+      <div class="oeuvre-oeuvre">
+        <div class="oeuvre-img" @click="slideshow = true">
+          <img :src="require('@/assets/oeuvre/' +cat+'/'+ type+'/' + assets[0].filename)" />
+        </div>
+        
+        <div class="oeuvre-box">
+          <div class="oeuvre-titre"><span>{{assets[0].titre}}</span></div>
+          <div class="oeuvre-details"><span>{{assets[0].date}}<br>{{assets[0].description}}<br>{{assets[0].dimension}}</span></div>
+        </div>
+      </div>
+  	</div>
+	</div>
+  </transition>
+  <transition name="fade">
+    <div class="slideshow"v-if="slideshow">
+      <div class="slideshow-img" @click="next">
+            <img :src="require('@/assets/oeuvre/' +cat+'/'+ type+'/' + assets[slideshowCurrent].filename)" />
+        </div>
+        <div class="slideshow-box">
+            <div class="oeuvre-titre"><span>{{assets[slideshowCurrent].titre}}</span></div>
+            <div class="oeuvre-details"><span>{{assets[0].date}}<br>{{assets[0].description}}<br>{{assets[0].dimension}}</span></div>
+        </div>
+        <div class="back" @click="slideshow = false">RETOUR</div>
+    </div>
+  </transition>
+</div>
+
+
+</div>
+</template>
+
+<script>
+import datajson from "../assets/content.json"
+export default {
+  props: ["cat", "type", 'lang'],
+  name: "Oeuvre",
+  created(){
+    console.log(datajson[this.cat])
+  },
+  data() {
+    return {
+      slideshow: false,
+      slideshowCurrent: 0,
+      titre : datajson[this.cat].titre,
+      contenu : datajson[this.cat].contenu,
+      assets : datajson[this.cat].assets[this.type]
+    }
+  },
+  methods:{
+    next(){
+      this.slideshowCurrent == datajson[this.cat].assets[this.type].length -1 ? this.slideshowCurrent = 0 : this.slideshowCurrent ++
+    }
+  }
+};
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scss>
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .8s
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0
+}
+
+.oeuvre-texte-titre {
+  font-size: 20px;
+}
+
+.back {
+  padding: 50px;
+}
+
+.oeuvre-texte-content {
+  font-size: 14px;
+}
+
+.slideshow {
+background: black;
+ min-width: 100%;
+ text-align: center;
+ position: absolute;
+}
+
+.oeuvre-oeuvre {
+  position: absolute;
+  top: 30%;
+  /* width: 30%; */
+  padding: 0 0 0 45%
+}
+
+.oeuvre {
+  width: 35%;
+  padding: 10% 0 0 15%
+}
+
+
+</style>

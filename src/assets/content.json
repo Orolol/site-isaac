@@ -1,0 +1,58 @@
+{
+    "memoire" : {
+        "titre" : "MEMOIRE",
+        "contenu" : ["Une part essentielle, tragique, de l’œuvre d’Isaac Celnikier est consacrée au martyrologe du peuple juif. L’engagement pictural de l’artiste émane de son expérience même, celle du ghetto, des camps nazis, puis de l’oppression stalinienne. Ainsi sa peinture et sa gravure constituent-elles un acte viscéral d’être au monde, une forme de survie, sa dignité d’homme. Cette mise en mémoire matérielle et personnelle ne peut, à ses yeux, être saisie de façon pérenne que par l’œuvre d’art.",
+                    "Les grandes compositions, peintures monumentales à l’huile, produites juste après la guerre, sur le thème du ghetto (Ghetto à l’Ange notamment), voient dominer les bleutés, bruns, gris et blancs, dans une construction équilibrée, poursuivies plus tard par d’autres (Révolte, Judith, par exemple) aux couleurs exaspérées, et nerveusement spatulées ; la forme allégorique, en référence à l’Antiquité biblique advient aussi (telle Massada au mouvement ascendant) comme la forme plus directe en lien avec l’histoire proche d’Israël (Kippour 73) Tandis qu’à travers la figure martyre de Jan Palach (Prague), c’est l’oppression stalinienne qui se donne à voir.",
+                    "La gravure est apparue, à son tour, comme un medium propice à l’expression des gouffres infernaux. Par l’eau-forte, la pointe sèche, le burin et l’aquatinte, dans l’interaction des noirs ténébreux et des blancheurs létales, l’entrelac des lignes, leur griffure et morsure, a pu remonter la force obscure tenaillant l’artiste. Ce qui donnera trois Suites : Polonaise, Ghetto et Camps. Elisabeth de Fontenay, n’a pas manqué d’y retrouver certains accents de Piranese, de Goya et de Rembrandt.",
+                    "À partir des années 50 sont produites les peintures monumentales sur le thème de la Shoah (Kaddish, Cendres, par exemple). Elles s’expriment tantôt à travers un dégradé de matière dense et touffue, où l’image se brouille et d’où pourtant émerge une représentation construite, tantôt à travers un  « sourd bichromatisme lugubre » (Denis Milhau) (ex. le Tryptique Birkenau). En complément, et surtout durant la dernière période de l’artiste, une série de toiles de petits, moyens et assez grands formats évoquent tour à tour la tendresse familiale perdue, ou les thèmes du ghetto et des camps.                    ",
+                    "Enfin, plusieurs très grands formats sont dédiés à des thèmes sereins, évocations bibliques (Le Cantique des Cantiques, Esther) aux couleurs éclatantes"
+                    ] ,
+        "assets" : {
+            "gravure": [
+                {"titre" : "tableau1",
+                 "date" : "date - date",
+                 "description" : "gravure,eau-forte",
+                 "dimension" : "40x33cm",
+                 "filename" : "1.png"},
+                {"titre" : "tableau2",
+                 "date" : "date - date",
+                 "description" : "gravure,eau-forte",
+                 "dimension" : "40x33cm",
+                 "filename" : "2.jpg"},
+                {"titre" : "tableau3",
+                 "date" : "date - date",
+                 "description" : "gravure,eau-forte",
+                 "dimension" : "40x33cm",
+                 "filename" : "3.jpg"},
+                {"titre" : "tableau4",
+                 "date" : "date - date",
+                 "description" : "gravure,eau-forte",
+                 "dimension" : "40x33cm",
+                 "filename" : "4.jpg"}],
+            "peinture": [
+                {"titre" : "tableau1",
+                 "date" : "date - date",
+                 "description" : "gravure,eau-forte",
+                 "dimension" : "40x33cm",
+                 "filename" : "tab1.jpg"},
+                {"titre" : "tableau2",
+                 "date" : "date - date",
+                 "description" : "gravure,eau-forte",
+                 "dimension" : "40x33cm",
+                 "filename" : "tab1.jpg"},
+                {"titre" : "tableau3",
+                 "date" : "date - date",
+                 "description" : "gravure,eau-forte",
+                 "dimension" : "40x33cm",
+                 "filename" : "tab1.jpg"},
+                {"titre" : "tableau4",
+                 "date" : "date - date",
+                 "description" : "gravure,eau-forte",
+                 "dimension" : "40x33cm",
+                 "filename" : "tab1.jpg"}]
+        }
+        
+        
+        
+    }
+}
