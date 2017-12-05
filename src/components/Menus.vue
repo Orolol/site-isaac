@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="menu-wrapper">
 <div class="menu-left">
     <span class="left-title">L'OEUVRE</span>
     <div class="main-menu">
@@ -39,22 +39,27 @@
     </div>
 </div>
 <div class="menu-right">
-    <span class="right-title">L'HOMME</span>
-    <div class="main-menu">
-        <span class="menu-title">BIOGRAPHIE</span>
-        <div class="sub-menu-right" >
-            <router-link v-for="slice in bio" key="slice.date.id" tag="div" class="leaf-menu" :to="'/homme/bio#date'+slice.date.id ">{{slice.date.date}}</router-link>
+    <div class="isaac">ISAAC CELNIKIER</div>
+    <div class="inner-menu-right">
+        <span class="right-title">L'HOMME</span>
+        <div class="main-menu">
+            <span class="menu-title">BIOGRAPHIE</span>
+            <div class="sub-menu-right" >
+                <router-link v-for="slice in bio" key="slice.date.id" tag="div" class="leaf-menu" :to="'/homme/bio#date'+slice.date.id ">{{slice.date.date}}</router-link>
+            </div>
         </div>
+        <div class="main-menu">
+            <router-link tag="div" class="main-menu" to="/homme/exposition/">EXPOSITION</router-link>
+        </div>
+        <div class="main-menu">
+            <router-link tag="div" class="main-menu" to="/homme/catalogue/">CATALOGUE</router-link>
+        </div>
+        <div class="main-menu">
+            <router-link tag="div" class="main-menu" to="/homme/contact/">CONTACT</router-link>
+        </div>
+
     </div>
-    <div class="main-menu">
-        <router-link tag="div" class="main-menu" to="/homme/exposition/">EXPOSITION</router-link>
-    </div>
-    <div class="main-menu">
-        <router-link tag="div" class="main-menu" to="/homme/catalogue/">CATALOGUE</router-link>
-    </div>
-    <div class="main-menu">
-        <router-link tag="div" class="main-menu" to="/homme/contact/">CONTACT</router-link>
-    </div>
+   
 </div>
     
 </div>
@@ -76,6 +81,16 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 
+.isaac {
+    font-size: 26px;
+    letter-spacing: 6px; 
+}
+
+.menu-wrapper {
+    position: fixed;
+    width: 100%;
+}
+
 .left-title {
     font-size: 22px;
     top: -20px;
@@ -89,10 +104,19 @@ export default {
 }
 
 .menu-right {
-    float: right;
     text-align: right;
+    // position: relative;
     padding: 50px;
+    float: right;
+    // top: 100px;
+    // left: 100%;
 }
+
+.inner-menu-right {
+    position: relative;
+    top: 50px;
+}
+
 .menu-left {
     float: left;
     padding: 50px;

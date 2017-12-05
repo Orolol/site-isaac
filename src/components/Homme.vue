@@ -10,7 +10,7 @@
     </div>
   </transition>
   <transition name="fade">
-    <div class="oeuvre" v-if="cat == 'exposition'">
+    <div class="homme" v-if="cat == 'exposition'">
       <div class="exposition">
           <div class="expo-solo titre">
             EXPOSITIONS INDIVIDUELLES
@@ -36,7 +36,7 @@
     </div>
   </transition>
   <transition name="fade">
-    <div class="oeuvre" v-if="cat == 'contact'">
+    <div class="homme" v-if="cat == 'contact'">
       <div class="contact">
           <div class="contact-1">
             <span>JACOB CELNIKIER</span><br>
@@ -92,7 +92,7 @@ export default {
 
 .biographie {
   width: 55%;
-  padding: 10% 0 0 15%
+  padding: 10% 0 0 17%
 }
 
 .photo {
@@ -124,7 +124,8 @@ export default {
 
 .exposition {
   position: relative;
-  top: 150px;
+  top: 250px;
+  padding: 0 15% 0 12%;
 }
 
 .expo-solo, .expo-groupe {
