@@ -12,29 +12,29 @@
     <div class="main-menu">
         <span class="menu-title">PORTRAITS ET MATERNITES</span>
         <div class="sub-menu-left" >
-            <router-link tag="div" class="leaf-menu" to="/oeuvre/memoire/gravure">GRAVURE</router-link>
-            <router-link tag="div" class="leaf-menu" to="/oeuvre/memoire/peinture">PEINTURE</router-link>
+            <router-link tag="div" class="leaf-menu" to="/oeuvre/portraits/gravure">GRAVURE</router-link>
+            <router-link tag="div" class="leaf-menu" to="/oeuvre/portraits/peinture">PEINTURE</router-link>
         </div>
     </div>
     <div class="main-menu">
         <span class="menu-title">NUS ET EROTIQUES</span>
         <div class="sub-menu-left" >
-            <router-link tag="div" class="leaf-menu" to="/oeuvre/memoire/gravure">GRAVURE</router-link>
-            <router-link tag="div" class="leaf-menu" to="/oeuvre/memoire/peinture">PEINTURE</router-link>
+            <router-link tag="div" class="leaf-menu" to="/oeuvre/nus/gravure">GRAVURE</router-link>
+            <router-link tag="div" class="leaf-menu" to="/oeuvre/nus/peinture">PEINTURE</router-link>
         </div>
     </div>
     <div class="main-menu">
         <span class="menu-title">PAYSAGES</span>
         <div class="sub-menu-left" >
-            <router-link tag="div" class="leaf-menu" to="/oeuvre/memoire/gravure">GRAVURE</router-link>
-            <router-link tag="div" class="leaf-menu" to="/oeuvre/memoire/peinture">PEINTURE</router-link>
+            <router-link tag="div" class="leaf-menu" to="/oeuvre/paysages/gravure">GRAVURE</router-link>
+            <router-link tag="div" class="leaf-menu" to="/oeuvre/paysages/peinture">PEINTURE</router-link>
         </div>
     </div>
     <div class="main-menu">
         <span class="menu-title">NATURES MORTES</span>
         <div class="sub-menu-left" >
-            <router-link tag="div" class="leaf-menu" to="/oeuvre/memoire/gravure">GRAVURE</router-link>
-            <router-link tag="div" class="leaf-menu" to="/oeuvre/memoire/peinture">PEINTURE</router-link>
+            <router-link tag="div" class="leaf-menu" to="/oeuvre/natures/gravure">GRAVURE</router-link>
+            <router-link tag="div" class="leaf-menu" to="/oeuvre/natures/peinture">PEINTURE</router-link>
         </div>
     </div>
 </div>

@@ -50,10 +50,21 @@ export default {
     return {
       slideshow: false,
       slideshowCurrent: 0,
-      titre : datajson[this.cat].titre,
-      contenu : datajson[this.cat].contenu,
-      assets : datajson[this.cat].assets[this.type]
+      // titre : datajson[this.cat].titre,
+      // contenu : datajson[this.cat].contenu,
+      // assets : datajson[this.cat].assets[this.type]
     }
+  },
+  computed: {
+    titre(){
+      return datajson[this.cat].titre
+    },
+    contenu(){
+      return datajson[this.cat].contenu
+    },
+    assets(){
+      return datajson[this.cat].assets[this.type]
+    },
   },
   methods:{
     next(){
@@ -98,9 +109,15 @@ background: black;
   /* width: 30%; */
   padding: 0 0 0 45%
 }
+.oeuvre-texte {
+  top: 150px;
+  padding: 10% 0 0 0
+  /* width: 30%; */
+}
 
 .oeuvre {
-  width: 35%;
+
+  width: 40%;
   padding: 10% 0 0 15%
 }
 
