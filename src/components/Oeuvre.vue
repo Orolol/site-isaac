@@ -9,7 +9,7 @@
       </div>
       <div class="oeuvre-oeuvre">
         <div class="oeuvre-img" @click="slideshow = true">
-          <img :src="require('@/assets/oeuvre/' +cat+'/'+ type+'/' + assets[0].filename)" />
+          <img class="img" :src="require('@/assets/oeuvre/' +cat+'/'+ type+'/' + assets[0].filename)" />
         </div>
         
         <div class="oeuvre-box">
@@ -23,7 +23,7 @@
   <transition name="fade">
     <div class="slideshow"v-if="slideshow">
       <div class="slideshow-img" @click="next">
-            <img :src="require('@/assets/oeuvre/' +cat+'/'+ type+'/' + assets[slideshowCurrent].filename)" />
+            <img class="img-slide" :src="require('@/assets/oeuvre/' +cat+'/'+ type+'/' + assets[slideshowCurrent].filename)" />
         </div>
         <div class="slideshow-box">
             <div class="oeuvre-titre"><span>{{assets[slideshowCurrent].titre}}</span></div>
@@ -39,87 +39,97 @@
 </template>
 
 <script>
-import datajson from "../assets/content.json"
+import datajson from '../assets/content.json'
 export default {
-  props: ["cat", "type", 'lang'],
-  name: "Oeuvre",
-  created(){
-    console.log(datajson[this.cat])
-  },
-  data() {
-    return {
-      slideshow: false,
-      slideshowCurrent: 0,
-      // titre : datajson[this.cat].titre,
-      // contenu : datajson[this.cat].contenu,
-      // assets : datajson[this.cat].assets[this.type]
+    props: ['cat', 'type', 'lang'],
+    name: 'Oeuvre',
+    created() {
+        console.log(datajson[this.cat])
+    },
+    data() {
+        return {
+            slideshow: false,
+            slideshowCurrent: 0
+            // titre : datajson[this.cat].titre,
+            // contenu : datajson[this.cat].contenu,
+            // assets : datajson[this.cat].assets[this.type]
+        }
+    },
+    computed: {
+        titre() {
+            return datajson[this.cat].titre
+        },
+        contenu() {
+            return datajson[this.cat].contenu
+        },
+        assets() {
+            return datajson[this.cat].assets[this.type]
+        }
+    },
+    methods: {
+        next() {
+            this.slideshowCurrent ==
+            datajson[this.cat].assets[this.type].length - 1
+                ? (this.slideshowCurrent = 0)
+                : this.slideshowCurrent++
+        }
     }
-  },
-  computed: {
-    titre(){
-      return datajson[this.cat].titre
-    },
-    contenu(){
-      return datajson[this.cat].contenu
-    },
-    assets(){
-      return datajson[this.cat].assets[this.type]
-    },
-  },
-  methods:{
-    next(){
-      this.slideshowCurrent == datajson[this.cat].assets[this.type].length -1 ? this.slideshowCurrent = 0 : this.slideshowCurrent ++
-    }
-  }
-};
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scss>
-
-.fade-enter-active, .fade-leave-active {
-  transition: opacity .8s
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.8s;
 }
-.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
-  opacity: 0
+.fade-enter,
+.fade-leave-to {
+    opacity: 0;
 }
 
 .oeuvre-texte-titre {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 .back {
-  padding: 50px;
+    padding: 50px;
 }
 
 .oeuvre-texte-content {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 .slideshow {
-background: black;
- min-width: 100%;
- text-align: center;
- position: absolute;
+    background: black;
+    min-width: 100%;
+    text-align: center;
+    position: absolute;
 }
 
 .oeuvre-oeuvre {
-  position: absolute;
-  top: 30%;
-  /* width: 30%; */
-  padding: 0 0 0 45%
+    position: absolute;
+    top: 30%;
+    /* width: 30%; */
+    padding: 0 0 0 45%;
 }
 .oeuvre-texte {
-  top: 150px;
-  padding: 10% 0 0 0
-  /* width: 30%; */
+    top: 150px;
+    padding: 10% 0 0 0;
+    /* width: 30%; */
 }
 
 .oeuvre {
-
-  width: 40%;
-  padding: 10% 0 0 15%
+    width: 40%;
+    padding: 10% 0 0 15%;
 }
 
-
+.img {
+    max-width: auto;
+    max-height: 50vh;
+}
+.img-slide {
+    max-width: 80%;
+    height: auto;
+}
 </style>

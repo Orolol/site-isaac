@@ -66,116 +66,115 @@ import biojson from '../assets/bio.json'
 import expoSoloJson from '../assets/expo-solo.json'
 import expoGroupeJson from '../assets/expo-groupe.json'
 export default {
-  props: ["cat", "type"],
-  name: "Homme",
+    props: ['cat', 'type'],
+    name: 'Homme',
 
-
-  data() {
-    return {
-      lang: 'fr',
-      slideshow: false,
-      slideshowCurrent: 0,
-      bio: biojson.bio,
-      intro: biojson.intro,
-      expoSolo: expoSoloJson,
-      expoGroupe: expoGroupeJson,
-    }
-  },
-  methods:{
-   
-  }
-};
+    data() {
+        return {
+            lang: 'fr',
+            slideshow: false,
+            slideshowCurrent: 0,
+            bio: biojson.bio,
+            intro: biojson.intro,
+            expoSolo: expoSoloJson,
+            expoGroupe: expoGroupeJson
+        }
+    },
+    methods: {}
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scss>
-
 .biographie {
-  width: 55%;
-  padding: 10% 0 0 17%
+    width: 55%;
+    padding: 10% 0 0 17%;
 }
 
 .photo {
-  padding: 10% 0 5% 50%
+    padding: 10% 0 5% 50%;
 }
 
 .intro {
-  font-size: 22px;
-  width: 55%;
-  padding:  0 0 0 20%
+    font-size: 22px;
+    width: 55%;
+    padding: 0 0 0 20%;
 }
 
 .expo-nom {
-  width: 40%;
- 
+    width: 40%;
 }
 .expo-lieu {
-  width: 37%;
-  text-align: right;
-  padding-right: 15px;
+    width: 37%;
+    text-align: right;
+    padding-right: 15px;
 }
 .expo-pays {
-  width: 5%;
-  padding-right: 15px;
+    width: 5%;
+    padding-right: 15px;
 }
 .expo-annee {
-  width: 5%;
+    width: 5%;
 }
 
 .exposition {
-  position: relative;
-  top: 250px;
-  padding: 0 15% 0 12%;
+    position: relative;
+    top: 250px;
+    margin: 0 15% 0 12%;
 }
 
-.expo-solo, .expo-groupe {
-  display: flex;           display: -webkit-flex;
-  flex-direction: row;     -webkit-flex-direction: row;
-  flex-grow: 0;            -webkit-flex-grow: 0;
-  flex-wrap: wrap;         -webkit-flex-wrap: wrap;
-  width: 82%;
-  left: 10%;
-  right: 10%;
-  padding-bottom: 6px;
-  padding-top: 6px;
-  border-bottom: 1px solid black ; 
-  position: relative;
-  font-size: 15px;
-  top: -150px;
+.expo-solo,
+.expo-groupe {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-grow: 0;
+    -webkit-flex-grow: 0;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    width: 82%;
+    left: 10%;
+    right: 10%;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    border-bottom: 1px solid black;
+    position: relative;
+    font-size: 15px;
+    top: -150px;
 }
-
 
 .expo-groupe {
-  position: relative;
-  top: -100px;
+    position: relative;
+    top: -100px;
 }
 
-.titre{
-  font-weight: bold;
-  text-align: right;
+.titre {
+    font-weight: bold;
+    text-align: right;
 }
 
-
-.contact-1{
-  position: fixed;
-  left: 40%;
-  top: 30%;
+.contact-1 {
+    position: fixed;
+    left: 40%;
+    top: 30%;
 }
 
-.contact-1 span{
-  font-size: 12px;
+.contact-1 span {
+    font-size: 12px;
 }
 
-.contact-2{
-  position: fixed;
-  left: 20%;
-  top: 60%;
+.contact-2 {
+    position: fixed;
+    left: 20%;
+    top: 60%;
 }
-.contact-2 span{
-  font-size: 12px;
+.contact-2 span {
+    font-size: 12px;
 }
 
-.contact-2 a, .contact-1 a{
+.contact-2 a,
+.contact-1 a {
     font-size: 30px;
     letter-spacing: 4px;
     font-style: normal;
@@ -184,5 +183,4 @@ export default {
     text-transform: none;
     color: black;
 }
-
 </style>

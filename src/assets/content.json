@@ -1,251 +1,304 @@
 {
-    "memoire" : {
-        "titre" : "MEMOIRE",
-        "contenu" : ["Une part essentielle, tragique, de l’œuvre d’Isaac Celnikier est consacrée au martyrologe du peuple juif. L’engagement pictural de l’artiste émane de son expérience même, celle du ghetto, des camps nazis, puis de l’oppression stalinienne. Ainsi sa peinture et sa gravure constituent-elles un acte viscéral d’être au monde, une forme de survie, sa dignité d’homme. Cette mise en mémoire matérielle et personnelle ne peut, à ses yeux, être saisie de façon pérenne que par l’œuvre d’art.",
-                    "Les grandes compositions, peintures monumentales à l’huile, produites juste après la guerre, sur le thème du ghetto (Ghetto à l’Ange notamment), voient dominer les bleutés, bruns, gris et blancs, dans une construction équilibrée, poursuivies plus tard par d’autres (Révolte, Judith, par exemple) aux couleurs exaspérées, et nerveusement spatulées ; la forme allégorique, en référence à l’Antiquité biblique advient aussi (telle Massada au mouvement ascendant) comme la forme plus directe en lien avec l’histoire proche d’Israël (Kippour 73) Tandis qu’à travers la figure martyre de Jan Palach (Prague), c’est l’oppression stalinienne qui se donne à voir.",
-                    "La gravure est apparue, à son tour, comme un medium propice à l’expression des gouffres infernaux. Par l’eau-forte, la pointe sèche, le burin et l’aquatinte, dans l’interaction des noirs ténébreux et des blancheurs létales, l’entrelac des lignes, leur griffure et morsure, a pu remonter la force obscure tenaillant l’artiste. Ce qui donnera trois Suites : Polonaise, Ghetto et Camps. Elisabeth de Fontenay, n’a pas manqué d’y retrouver certains accents de Piranese, de Goya et de Rembrandt.",
-                    "À partir des années 50 sont produites les peintures monumentales sur le thème de la Shoah (Kaddish, Cendres, par exemple). Elles s’expriment tantôt à travers un dégradé de matière dense et touffue, où l’image se brouille et d’où pourtant émerge une représentation construite, tantôt à travers un  « sourd bichromatisme lugubre » (Denis Milhau) (ex. le Tryptique Birkenau). En complément, et surtout durant la dernière période de l’artiste, une série de toiles de petits, moyens et assez grands formats évoquent tour à tour la tendresse familiale perdue, ou les thèmes du ghetto et des camps.                    ",
-                    "Enfin, plusieurs très grands formats sont dédiés à des thèmes sereins, évocations bibliques (Le Cantique des Cantiques, Esther) aux couleurs éclatantes"
-                    ] ,
-        "assets" : {
-            "gravure": [
-                {"titre" : "tableau1",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "1.png"},
-                {"titre" : "tableau2",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "2.jpg"},
-                {"titre" : "tableau3",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "3.jpg"},
-                {"titre" : "tableau4",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "4.jpg"}],
-            "peinture": [
-                {"titre" : "tableau1",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "tab1.jpg"},
-                {"titre" : "tableau2",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "tab1.jpg"},
-                {"titre" : "tableau3",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "tab1.jpg"},
-                {"titre" : "tableau4",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "tab1.jpg"}]
+  "memoire": {
+    "titre": "MEMOIRE",
+    "contenu": [
+      "Une part essentielle, tragique, de l’œuvre d’Isaac Celnikier est consacrée au martyrologe du peuple juif. L’engagement pictural de l’artiste émane de son expérience même, celle du ghetto, des camps nazis, puis de l’oppression stalinienne. Ainsi sa peinture et sa gravure constituent-elles un acte viscéral d’être au monde, une forme de survie, sa dignité d’homme. Cette mise en mémoire matérielle et personnelle ne peut, à ses yeux, être saisie de façon pérenne que par l’œuvre d’art.",
+      "Les grandes compositions, peintures monumentales à l’huile, produites juste après la guerre, sur le thème du ghetto (Ghetto à l’Ange notamment), voient dominer les bleutés, bruns, gris et blancs, dans une construction équilibrée, poursuivies plus tard par d’autres (Révolte, Judith, par exemple) aux couleurs exaspérées, et nerveusement spatulées ; la forme allégorique, en référence à l’Antiquité biblique advient aussi (telle Massada au mouvement ascendant) comme la forme plus directe en lien avec l’histoire proche d’Israël (Kippour 73) Tandis qu’à travers la figure martyre de Jan Palach (Prague), c’est l’oppression stalinienne qui se donne à voir.",
+      "La gravure est apparue, à son tour, comme un medium propice à l’expression des gouffres infernaux. Par l’eau-forte, la pointe sèche, le burin et l’aquatinte, dans l’interaction des noirs ténébreux et des blancheurs létales, l’entrelac des lignes, leur griffure et morsure, a pu remonter la force obscure tenaillant l’artiste. Ce qui donnera trois Suites : Polonaise, Ghetto et Camps. Elisabeth de Fontenay, n’a pas manqué d’y retrouver certains accents de Piranese, de Goya et de Rembrandt.",
+      "À partir des années 50 sont produites les peintures monumentales sur le thème de la Shoah (Kaddish, Cendres, par exemple). Elles s’expriment tantôt à travers un dégradé de matière dense et touffue, où l’image se brouille et d’où pourtant émerge une représentation construite, tantôt à travers un  « sourd bichromatisme lugubre » (Denis Milhau) (ex. le Tryptique Birkenau). En complément, et surtout durant la dernière période de l’artiste, une série de toiles de petits, moyens et assez grands formats évoquent tour à tour la tendresse familiale perdue, ou les thèmes du ghetto et des camps.                    ",
+      "Enfin, plusieurs très grands formats sont dédiés à des thèmes sereins, évocations bibliques (Le Cantique des Cantiques, Esther) aux couleurs éclatantes"
+    ],
+    "assets": {
+      "gravure": [
+        {
+          "titre": "3-13 Février 43, Bialystok (massacres)",
+          "date": "date - date",
+          "description": "gravure,eau-forte",
+          "dimension": "40x33cm",
+          "filename": "3-13 Février 43, Bialystok (massacres).jpg"
+        },
+        {
+          "titre": "Jour de sélection",
+          "date": "date - date",
+          "description": "gravure,eau-forte",
+          "dimension": "40x33cm",
+          "filename": "Jour de sélection.jpg"
+        },
+        {
+          "titre": "Alerte 1939",
+          "date": "date - date",
+          "description": "gravure,eau-forte",
+          "dimension": "40x33cm",
+          "filename": "Alerte 1939.jpg"
+        },
+        {
+          "titre": "Départ de Buna-Auschwitz",
+          "date": "date - date",
+          "description": "gravure,eau-forte",
+          "dimension": "40x33cm",
+          "filename": "Départ de Buna-Auschwitz.jpg"
+        },
+        {
+          "titre": "Insurrection",
+          "date": "date - date",
+          "description": "gravure,eau-forte",
+          "dimension": "40x33cm",
+          "filename": "Insurrection.jpg"
+        },
+        {
+          "titre": "Jour de libération",
+          "date": "date - date",
+          "description": "gravure,eau-forte",
+          "dimension": "40x33cm",
+          "filename": "Jour de libération.jpg"
         }
-    },
-    "natures" : {
-        "titre" : "NATURES MORTES",
-        "contenu" : ["Les natures-mortes de l’artiste, en nombre plus limité, dégagent souvent un calme comparable à ceux émanant de ses divers paysages. Quelques pièces se distinguent par leur taille imposante, telle la Nature morte aux bougeoirs au bleu intense, de l’époque polonaise, ou l’Epervier suspendu gris cendré sur fond rouge, ou la suite des faisans dorés, aux accents soutiniens. La majorité des autres sont de format plus modeste : ici les rouges orangés d’une corbeille de Grenades et mangues dégagent une harmonie tranquille, là un bouquet éclatant aux complexes structures déploie toute sa vigueur, tandis qu’ailleurs, un chandelier penché à l’argent patiné diffuse sa mélodie d’un autrefois disparu."
-                    ] ,
-        "assets" : {
-            "gravure": [
-                {"titre" : "tableau1",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "1.png"},
-                {"titre" : "tableau2",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "2.jpg"},
-                {"titre" : "tableau3",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "3.jpg"},
-                {"titre" : "tableau4",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "4.jpg"}],
-            "peinture": [
-                {"titre" : "tableau1",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "tab1.jpg"},
-                {"titre" : "tableau2",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "tab1.jpg"},
-                {"titre" : "tableau3",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "tab1.jpg"},
-                {"titre" : "tableau4",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "tab1.jpg"}]
+      ],
+      "peinture": [
+        {
+          "titre": "4 femmes face aux fusils",
+          "date": "date - date",
+          "description": "peinture, huile",
+          "dimension": "40x33cm",
+          "filename": "4 femmes face aux fusils.jpg"
+        },
+        {
+          "titre": "Aktion",
+          "date": "date - date",
+          "description": "peinture, huile",
+          "dimension": "40x33cm",
+          "filename": "Aktion.jpg"
+        },
+        {
+          "titre": "Femmes pourchassées",
+          "date": "date - date",
+          "description": "peinture, huile",
+          "dimension": "40x33cm",
+          "filename": "Femmes pourchassées.jpg"
+        },
+        {
+          "titre": "Hommes avant exécution",
+          "date": "date - date",
+          "description": "peinture, huile",
+          "dimension": "40x33cm",
+          "filename": "Hommes avant exécution.jpg"
         }
-    },
-    "paysages" : {
-        "titre" : "PAYSAGES",
-        "contenu" : ["En contrepoint du versant ténébreux de la vie et de l’œuvre d’IC, le travail sur le motif, constitue, aux dires même de l’artiste, une salutaire respiration. Un ensemble de paysages à l’huile, à l’aquarelle essentiellement, et dans une moindre mesure, dessins, fusains et gravures, manifestent son rapport à la terre, tour à tour enthousiaste et émerveillé, apaisant et harmonieux. Cet autre hymne à la vie évoqué pour ses portraits, Denis Milhau le décrit comme « un incoercible besoin de montrer qu’il l’a aimé comme sa propre chair. » Que ce soient les montagnes de la Côte d’Azur ou des Pyrénées, ou les collines de Provence, IC en montre soit les frondaisons humides et touffues soit les strates rocheuses lumineuses et colorées, avec souvent une sorte de sacralité attribuée au mont. Des vastes déserts de Judée à la terre brûlée et stratifiée, chargés d’histoire, émanent des accents mystiques et inspirés, avec une gamme de jaunes et ocres, sur fond dynamique, où parfois surgissent des rouges célestes incandescents. Ses plus rares marines dégagent le flou des grands espaces, tandis que ses cités et édifices sont empreints d’une sensibilité et écriture propres aux lieux chers et très investis tels qu’Amsterdam, Jérusalem, Venise, Sainte-Agnès, Belvès, ou le Quai Valmy."
-                    ] ,
-        "assets" : {
-            "gravure": [
-                {"titre" : "tableau1",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "1.png"},
-                {"titre" : "tableau2",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "2.jpg"},
-                {"titre" : "tableau3",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "3.jpg"},
-                {"titre" : "tableau4",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "4.jpg"}],
-            "peinture": [
-                {"titre" : "tableau1",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "tab1.jpg"},
-                {"titre" : "tableau2",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "tab1.jpg"},
-                {"titre" : "tableau3",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "tab1.jpg"},
-                {"titre" : "tableau4",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "tab1.jpg"}]
-        }
-    },
-    "nus" : {
-        "titre" : "NUS ET EROTIQUES",
-        "contenu" : ["Tout comme les portraits, les nus de Celnikier, peints, gravés, au fusain, ou à l’aquarelle, expriment son émerveillement et son émoi, devant les corps familiers. Qu’ils soient matiéristes et spatulés, quasi-sculptés en surface, et longuement travaillés, cas le plus fréquent dans les tableaux de nus (celui de Johanna de 1956, celui d’Anne de 1985 par exemple) ou bien diaphanes et transparents, saisis dans la vivacité de l’instant, ils témoignent d’une existence aimée (en particulier dans les nombreux nus d’Anne), d’un désir de pérenniser cette émotion spirituelle et charnelle. Une contrepartie radicale à la souffrance et la détresse traversées se condense dans l’expression de l’extase amoureuse, vécue par l‘artiste bien des années après la guerre. La folle passion et les transports de l’union charnelle se déploient au sein de ses  Érotiques, tableaux essentiellement, de divers formats, et quelques gravures aussi. Tantôt un tumulte quasi convulsif des corps en dynamique fusionnelle s’échappe des coups de spatule audacieux du peintre, tantôt c’est la douceur de l’union par les courbes et les demi- teintes estompées qui se donnent à voir ; et de même, c’est par le clair obscur mystérieux et intimiste que s’exprime, dans la gravure, cette même douceur."
-                    ] ,
-        "assets" : {
-            "gravure": [
-                {"titre" : "tableau1",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "1.png"},
-                {"titre" : "tableau2",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "2.jpg"},
-                {"titre" : "tableau3",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "3.jpg"},
-                {"titre" : "tableau4",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "4.jpg"}],
-            "peinture": [
-                {"titre" : "tableau1",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "tab1.jpg"},
-                {"titre" : "tableau2",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "tab1.jpg"},
-                {"titre" : "tableau3",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "tab1.jpg"},
-                {"titre" : "tableau4",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "tab1.jpg"}]
-        }
-    },
-    "portraits" : {
-        "titre" : "PORTRAITS ET MAERNITES",
-        "contenu" : ["Après l’expérience de la mort, l’expérience de vie. Les toiles, aquarelles, encres, fusains etgravures d’I.C. qui traversent cette thématique sont autant d’hymnes à la vie. D’innombrables portraits de femmes, de multiples maternités, de plus rares portraits d’hommes, incluant une série remarquable d’autoportraits, jalonnent sa création. Ils manifestent « l’ouverture profonde de l’artiste sur le monde, son attachement viscéral […] à fixer à jamais l’instantanéité et l’authenticité de l’émotion spirituelle et charnelle à la figure vivante dans une matière malaxée au rythme du regard » écrit Denis Milhau.. Le plus souvent figures de l’apaisement, ou bien de l’exaltation, de la joie, ou encore de la passion et de l’amour comme dans les portraits intitulés Anne, Claire, Sylvia, Patricia Gladys, Ruth ; dans les maternités telles que Anne et Yoshua, Anne et Sarah et certains autoportraits, véritables jaillissements d’instinct vital. Le grand triptyque vertical Naissance (en référence à la naissance de sa fille Sarah), constitue, quant à lui, une singularité de l’artiste. Mais une autre facette se donne à voir, où « la pâte même du tableau exprime la gravité, l’inquiétude de celui qui sait » (Elisabeth de Fontenay), tels certains portraits nommés Judith, Anne, Alain, Franck, ou Marc, et certains autoportraits à caractère sombre et intense, voire empreints d’étrangeté et d’interrogation. Celnikier travaille sur modèles, avec une prédilection pour ses proches, sa femme, ses enfants et son cercle d’amis."
-                    ] ,
-        "assets" : {
-            "gravure": [
-                {"titre" : "tableau1",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "1.png"},
-                {"titre" : "tableau2",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "2.jpg"},
-                {"titre" : "tableau3",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "3.jpg"},
-                {"titre" : "tableau4",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "4.jpg"}],
-            "peinture": [
-                {"titre" : "tableau1",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "tab1.jpg"},
-                {"titre" : "tableau2",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "tab1.jpg"},
-                {"titre" : "tableau3",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "tab1.jpg"},
-                {"titre" : "tableau4",
-                 "date" : "date - date",
-                 "description" : "gravure,eau-forte",
-                 "dimension" : "40x33cm",
-                 "filename" : "tab1.jpg"}]
-        }
+      ]
     }
+  },
+  "natures": {
+    "titre": "NATURES MORTES",
+    "contenu": [
+      "Les natures-mortes de l’artiste, en nombre plus limité, dégagent souvent un calme comparable à ceux émanant de ses divers paysages. Quelques pièces se distinguent par leur taille imposante, telle la Nature morte aux bougeoirs au bleu intense, de l’époque polonaise, ou l’Epervier suspendu gris cendré sur fond rouge, ou la suite des faisans dorés, aux accents soutiniens. La majorité des autres sont de format plus modeste : ici les rouges orangés d’une corbeille de Grenades et mangues dégagent une harmonie tranquille, là un bouquet éclatant aux complexes structures déploie toute sa vigueur, tandis qu’ailleurs, un chandelier penché à l’argent patiné diffuse sa mélodie d’un autrefois disparu."
+    ],
+    "assets": {
+      "peinture": [
+        {
+          "titre": "Arbre sur fond brillant",
+          "date": "date - date",
+          "description": "peinture, huile",
+          "dimension": "40x33cm",
+          "filename": "Arbre sur fond brillant.jpg"
+        },
+        {
+          "titre": "Faisan sur drapé rouge",
+          "date": "date - date",
+          "description": "peinture, huile",
+          "dimension": "40x33cm",
+          "filename": "Faisan sur drapé rouge.jpg"
+        },
+        {
+          "titre": "Mangues et grenades",
+          "date": "date - date",
+          "description": "peinture, huile",
+          "dimension": "40x33cm",
+          "filename": "Mangues et grenades.jpg"
+        }
+      ]
+    }
+  },
+  "paysages": {
+    "titre": "PAYSAGES",
+    "contenu": [
+      "En contrepoint du versant ténébreux de la vie et de l’œuvre d’IC, le travail sur le motif, constitue, aux dires même de l’artiste, une salutaire respiration. Un ensemble de paysages à l’huile, à l’aquarelle essentiellement, et dans une moindre mesure, dessins, fusains et gravures, manifestent son rapport à la terre, tour à tour enthousiaste et émerveillé, apaisant et harmonieux. Cet autre hymne à la vie évoqué pour ses portraits, Denis Milhau le décrit comme « un incoercible besoin de montrer qu’il l’a aimé comme sa propre chair. » Que ce soient les montagnes de la Côte d’Azur ou des Pyrénées, ou les collines de Provence, IC en montre soit les frondaisons humides et touffues soit les strates rocheuses lumineuses et colorées, avec souvent une sorte de sacralité attribuée au mont. Des vastes déserts de Judée à la terre brûlée et stratifiée, chargés d’histoire, émanent des accents mystiques et inspirés, avec une gamme de jaunes et ocres, sur fond dynamique, où parfois surgissent des rouges célestes incandescents. Ses plus rares marines dégagent le flou des grands espaces, tandis que ses cités et édifices sont empreints d’une sensibilité et écriture propres aux lieux chers et très investis tels qu’Amsterdam, Jérusalem, Venise, Sainte-Agnès, Belvès, ou le Quai Valmy."
+    ],
+    "assets": {
+      "peinture": [
+        {
+          "titre": "Ciel blanc sur Abu Tor, Jérusalem",
+          "date": "date - date",
+          "description": "gravure,eau-forte",
+          "dimension": "40x33cm",
+          "filename": "Ciel blanc sur Abu Tor, Jérusalem.jpg"
+        },
+        {
+          "titre": "Ciel Rouge sur Abu Tor, Jérusalem",
+          "date": "date - date",
+          "description": "gravure,eau-forte",
+          "dimension": "40x33cm",
+          "filename": "Ciel Rouge sur Abu Tor, Jérusalem.jpg"
+        },
+        {
+          "titre": "Rocher de Sainte-Agnes pastel",
+          "date": "date - date",
+          "description": "gravure,eau-forte",
+          "dimension": "40x33cm",
+          "filename": "Rocher de Sainte-Agnes pastel.jpg"
+        },
+        {
+          "titre": "Mont Gramont I",
+          "date": "date - date",
+          "description": "gravure,eau-forte",
+          "dimension": "40x33cm",
+          "filename": "Mont Gramont I.jpg"
+        },
+        {
+          "titre": "rocher Ste Agnes Ocre",
+          "date": "date - date",
+          "description": "gravure,eau-forte",
+          "dimension": "40x33cm",
+          "filename": "Rocher Ste Agnes Ocre.jpg"
+        },
+        {
+          "titre": "Mont des oliviers au ciel mouvementé",
+          "date": "date - date",
+          "description": "gravure,eau-forte",
+          "dimension": "40x33cm",
+          "filename": "Mont des oliviers au ciel mouvementé.jpg"
+        },
+        {
+          "titre": "Mont des Oliviers Tumultueux",
+          "date": "date - date",
+          "description": "gravure,eau-forte",
+          "dimension": "40x33cm",
+          "filename": "Mont des Oliviers Tumultueux.jpg"
+        }
+      ]
+    }
+  },
+  "nus": {
+    "titre": "NUS ET EROTIQUES",
+    "contenu": [
+      "Tout comme les portraits, les nus de Celnikier, peints, gravés, au fusain, ou à l’aquarelle, expriment son émerveillement et son émoi, devant les corps familiers. Qu’ils soient matiéristes et spatulés, quasi-sculptés en surface, et longuement travaillés, cas le plus fréquent dans les tableaux de nus (celui de Johanna de 1956, celui d’Anne de 1985 par exemple) ou bien diaphanes et transparents, saisis dans la vivacité de l’instant, ils témoignent d’une existence aimée (en particulier dans les nombreux nus d’Anne), d’un désir de pérenniser cette émotion spirituelle et charnelle. Une contrepartie radicale à la souffrance et la détresse traversées se condense dans l’expression de l’extase amoureuse, vécue par l‘artiste bien des années après la guerre. La folle passion et les transports de l’union charnelle se déploient au sein de ses  Érotiques, tableaux essentiellement, de divers formats, et quelques gravures aussi. Tantôt un tumulte quasi convulsif des corps en dynamique fusionnelle s’échappe des coups de spatule audacieux du peintre, tantôt c’est la douceur de l’union par les courbes et les demi- teintes estompées qui se donnent à voir ; et de même, c’est par le clair obscur mystérieux et intimiste que s’exprime, dans la gravure, cette même douceur."
+    ],
+    "assets": {
+      "peinture": [
+        {
+          "titre": "Anne sur fond rouge (nu)",
+          "date": "date - date",
+          "description": "gravure,eau-forte",
+          "dimension": "40x33cm",
+          "filename": "Anne sur fond rouge (nu).jpg"
+        },
+
+        {
+          "titre": "Nu accoudé doré",
+          "date": "date - date",
+          "description": "gravure,eau-forte",
+          "dimension": "40x33cm",
+          "filename": "Nu accoudé doré.jpg"
+        }
+      ]
+    }
+  },
+  "portraits": {
+    "titre": "PORTRAITS ET MATERNITES",
+    "contenu": [
+      "Après l’expérience de la mort, l’expérience de vie. Les toiles, aquarelles, encres, fusains etgravures d’I.C. qui traversent cette thématique sont autant d’hymnes à la vie. D’innombrables portraits de femmes, de multiples maternités, de plus rares portraits d’hommes, incluant une série remarquable d’autoportraits, jalonnent sa création. Ils manifestent « l’ouverture profonde de l’artiste sur le monde, son attachement viscéral […] à fixer à jamais l’instantanéité et l’authenticité de l’émotion spirituelle et charnelle à la figure vivante dans une matière malaxée au rythme du regard » écrit Denis Milhau.. Le plus souvent figures de l’apaisement, ou bien de l’exaltation, de la joie, ou encore de la passion et de l’amour comme dans les portraits intitulés Anne, Claire, Sylvia, Patricia Gladys, Ruth ; dans les maternités telles que Anne et Yoshua, Anne et Sarah et certains autoportraits, véritables jaillissements d’instinct vital. Le grand triptyque vertical Naissance (en référence à la naissance de sa fille Sarah), constitue, quant à lui, une singularité de l’artiste. Mais une autre facette se donne à voir, où « la pâte même du tableau exprime la gravité, l’inquiétude de celui qui sait » (Elisabeth de Fontenay), tels certains portraits nommés Judith, Anne, Alain, Franck, ou Marc, et certains autoportraits à caractère sombre et intense, voire empreints d’étrangeté et d’interrogation. Celnikier travaille sur modèles, avec une prédilection pour ses proches, sa femme, ses enfants et son cercle d’amis."
+    ],
+    "assets": {
+      "peinture": [
+        {
+          "titre": "Alain à la chemise blanche",
+          "date": "date - date",
+          "description": "gravure,eau-forte",
+          "dimension": "40x33cm",
+          "filename": "Alain à la chemise blanche.jpg"
+        },
+        {
+          "titre": "Anne à l'écharpe rouge",
+          "date": "date - date",
+          "description": "gravure,eau-forte",
+          "dimension": "40x33cm",
+          "filename": "Anne à l'écharpe rouge.jpg"
+        },
+        {
+          "titre": "Anne au pancho rouge et noire",
+          "date": "date - date",
+          "description": "gravure,eau-forte",
+          "dimension": "40x33cm",
+          "filename": "Anne au pancho rouge et noire.jpg"
+        },
+        {
+          "titre": "Anne en robe bédouine jaune",
+          "date": "date - date",
+          "description": "gravure,eau-forte",
+          "dimension": "40x33cm",
+          "filename": "Anne en robe bédouine jaune.jpg"
+        },
+        {
+          "titre": "Anne en robe bédouine jaune b",
+          "date": "date - date",
+          "description": "gravure,eau-forte",
+          "dimension": "40x33cm",
+          "filename": "Anne en robe bédouine jaune b.jpg"
+        },
+        {
+          "titre": "Anne et Sarah rouge et blanc",
+          "date": "date - date",
+          "description": "gravure,eau-forte",
+          "dimension": "40x33cm",
+          "filename": "Anne et Sarah rouge et blanc.jpg"
+        },
+        {
+          "titre": "Anne et Yoshua",
+          "date": "date - date",
+          "description": "gravure,eau-forte",
+          "dimension": "40x33cm",
+          "filename": "Anne et Yoshua.jpg"
+        },
+        {
+          "titre": "Autoportrait au chevalet",
+          "date": "date - date",
+          "description": "gravure,eau-forte",
+          "dimension": "40x33cm",
+          "filename": "Autoportrait au chevalet.jpg"
+        },
+        {
+          "titre": "Autoportrait bleu",
+          "date": "date - date",
+          "description": "gravure,eau-forte",
+          "dimension": "40x33cm",
+          "filename": "Autoportrait bleu.jpg"
+        },
+        {
+          "titre": "Autoportrait I",
+          "date": "date - date",
+          "description": "gravure,eau-forte",
+          "dimension": "40x33cm",
+          "filename": "Autoportrait I.jpg"
+        },
+        {
+          "titre": "Gladys Bleue",
+          "date": "date - date",
+          "description": "gravure,eau-forte",
+          "dimension": "40x33cm",
+          "filename": "Gladys Bleue.jpg"
+        },
+        {
+          "titre": "Marc II",
+          "date": "date - date",
+          "description": "gravure,eau-forte",
+          "dimension": "40x33cm",
+          "filename": "Marc II.jpg"
+        },
+        {
+          "titre": "Anne enceinte",
+          "date": "date - date",
+          "description": "gravure,eau-forte",
+          "dimension": "40x33cm",
+          "filename": "Anne enceinte.jpg"
+        }
+      ]
+    }
+  }
 }

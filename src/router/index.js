@@ -6,6 +6,7 @@ import App from '../App.vue'
 import Oeuvre from '../components/Oeuvre.vue'
 import Homme from '../components/Homme.vue'
 import Accueil from '../components/Accueil.vue'
+import Home from '../components/Home.vue'
 
 Vue.use(Router)
 
@@ -13,6 +14,11 @@ export default new Router({
   routes: [
     {
       path: '/',
+      name: 'Home',
+      component: Home
+    },
+    {
+      path: '/Accueil',
       name: 'Accueil',
       component: Accueil
     },
@@ -33,9 +39,9 @@ export default new Router({
       name: 'Homme',
       component: Homme,
       props: true
-    },
+    }
   ],
-  scrollBehavior (to, from, savedPosition) {
+  scrollBehavior(to, from, savedPosition) {
     if (to.hash) {
       return {
         selector: to.hash
