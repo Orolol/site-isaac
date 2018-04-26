@@ -81,6 +81,41 @@
           "description": "peinture, huile",
           "dimension": "40x33cm",
           "filename": "Hommes avant exécution.jpg"
+        },
+        {
+          "titre": "Ghetto à l'ange",
+          "date": "1958-1964",
+          "description": "peinture, huile",
+          "dimension": "40x33cm",
+          "filename": "Ghetto à l'ange (1958-1964).jpg"
+        },
+        {
+          "titre": "Massada",
+          "date": "1971-1982",
+          "description": "peinture, huile",
+          "dimension": "235 x 350",
+          "filename": "Massada (1971-1982, 235 x 350).jpg"
+        },
+        {
+          "titre": "Prague",
+          "date": "1969",
+          "description": "peinture, huile",
+          "dimension": " 230 x 200",
+          "filename": "Prague (1969, 230 x 200).jpg"
+        },
+        {
+          "titre": "Révolte",
+          "date": "1983-1984",
+          "description": "peinture, huile",
+          "dimension": "193 x 227",
+          "filename": "Révolte (1983-1984, 193 x 227).jpg"
+        },
+        {
+          "titre": "Cendres",
+          "date": "1984-1986",
+          "description": "peinture, huile",
+          "dimension": "193 x 227",
+          "filename": "Cendres (1984-1986, 193 x 227).jpg"
         }
       ]
     }
@@ -196,6 +231,34 @@
           "description": "gravure,eau-forte",
           "dimension": "40x33cm",
           "filename": "Nu accoudé doré.jpg"
+        },
+        {
+          "titre": "Les fiancées Juives I",
+          "date": "1990",
+          "description": "gravure,eau-forte",
+          "dimension": "195 x 132",
+          "filename": "Les fiancées Juives I (1990, 195 x 132).jpg"
+        },
+        {
+          "titre": "Les fiancées Juives II",
+          "date": "1990",
+          "description": "gravure,eau-forte",
+          "dimension": "195 x 132",
+          "filename": "Les fiancées Juives II (1990, 195 x 132).jpg"
+        },
+        {
+          "titre": "Les fiancées Juives III",
+          "date": "1990",
+          "description": "gravure,eau-forte",
+          "dimension": "195 x 132",
+          "filename": "Les fiancées Juives III (1990, 195 x 132).jpg"
+        },
+        {
+          "titre": "Les fiancées Juives IV",
+          "date": "1990",
+          "description": "gravure,eau-forte",
+          "dimension": "195 x 132",
+          "filename": "Les fiancées Juives IV (1990, 195 x 132).jpg"
         }
       ]
     }
@@ -290,6 +353,27 @@
           "description": "gravure,eau-forte",
           "dimension": "40x33cm",
           "filename": "Marc II.jpg"
+        },
+        {
+          "titre": "Anne voile bleu",
+          "date": "date - date",
+          "description": "gravure,eau-forte",
+          "dimension": "40x33cm",
+          "filename": "Anne voile bleu_1.jpg"
+        },
+        {
+          "titre": "Anne pensive",
+          "date": "date - date",
+          "description": "peinture, aquarelle",
+          "dimension": "40x33cm",
+          "filename": "Anne pensive (Aquarelle)_1.jpg"
+        },
+        {
+          "titre": "Anne en tunique rose et turban",
+          "date": "date - date",
+          "description": "gravure,eau-forte",
+          "dimension": "40x33cm",
+          "filename": "Anne en tunique rose et turban_1.jpg"
         },
         {
           "titre": "Anne enceinte",

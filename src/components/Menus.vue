@@ -48,20 +48,20 @@
     <div class="inner-menu-right">
         <span class="right-title">L'HOMME</span>
         <div class="main-menu">
-            <router-link tag="span" class="main-title" to="/homme/bio/">BIOGRAPHIE</router-link>
+            <router-link tag="span" class="menu-title" to="/homme/bio/">BIOGRAPHIE</router-link>
             <!-- <span class="menu-title">BIOGRAPHIE</span> -->
             <div class="sub-menu-right" >
                 <router-link v-for="slice in bio" key="slice.date.id" tag="div" class="leaf-menu" :to="'/homme/bio#date'+slice.date.id ">{{slice.date.date}}</router-link>
             </div>
         </div>
         <div class="main-menu">
-            <router-link tag="div" class="main-menu" to="/homme/exposition/">EXPOSITIONS</router-link>
+            <router-link tag="span" class="menu-title" to="/homme/exposition/">EXPOSITIONS</router-link>
         </div>
         <div class="main-menu">
-            <router-link tag="div" class="main-menu" to="/homme/catalogue/">CATALOGUES</router-link>
+            <router-link tag="span" class="menu-title" to="/homme/catalogue/">CATALOGUES</router-link>
         </div>
         <div class="main-menu">
-            <router-link tag="div" class="main-menu" to="/homme/contact/">CONTACT</router-link>
+            <router-link tag="span" class="menu-title" to="/homme/contact/">CONTACT</router-link>
         </div>
 
     </div>
@@ -116,6 +116,10 @@ export default {
     float: right;
     // top: 100px;
     // left: 100%;
+    .menu-title {
+        float: left;
+        padding-left: 60px;
+    }
 }
 
 .inner-menu-right {
@@ -126,6 +130,9 @@ export default {
 .menu-left {
     float: left;
     padding: 50px;
+    .menu-title {
+        float: right;
+    }
 }
 
 .main-menu {
@@ -150,8 +157,9 @@ export default {
 
 .sub-menu-left {
     position: relative;
-    top: -14px;
-    left: 180px;
+    // top: -14px;
+    left: 200px;
+    padding-left: 10px;
 }
 .sub-menu-right {
     position: relative;

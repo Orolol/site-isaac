@@ -22,12 +22,14 @@
   </transition>
   <transition name="fade">
     <div class="slideshow"v-if="slideshow">
-      <div class="slideshow-img" @click="next">
-            <img class="img-slide" :src="require('@/assets/oeuvre/' +cat+'/'+ type+'/' + assets[slideshowCurrent].filename)" />
+      <div class="slide-next" @click="next"> > </div>  
+      <div class="slide-prev" @click="previous"> < </div>  
+      <div class="slideshow-img" >
+            <img class="img-slide" @click="next" :src="require('@/assets/oeuvre/' +cat+'/'+ type+'/' + assets[slideshowCurrent].filename)" />
         </div>
         <div class="slideshow-box">
             <div class="oeuvre-titre"><span>{{assets[slideshowCurrent].titre}}</span></div>
-            <div class="oeuvre-details"><span>{{assets[0].date}}<br>{{assets[0].description}}<br>{{assets[0].dimension}}</span></div>
+            <div class="oeuvre-details"><span>{{assets[slideshowCurrent].date}}<br>{{assets[slideshowCurrent].description}}<br>{{assets[slideshowCurrent].dimension}}</span></div>
         </div>
         <div class="back" @click="slideshow = false">RETOUR</div>
     </div>
@@ -72,6 +74,12 @@ export default {
             datajson[this.cat].assets[this.type].length - 1
                 ? (this.slideshowCurrent = 0)
                 : this.slideshowCurrent++
+        },
+        previous() {
+            this.slideshowCurrent == 0
+                ? (this.slideshowCurrent =
+                      datajson[this.cat].assets[this.type].length - 1)
+                : this.slideshowCurrent--
         }
     }
 }
@@ -94,6 +102,7 @@ export default {
 
 .back {
     padding: 50px;
+    z-index: 2;
 }
 
 .oeuvre-texte-content {
@@ -130,6 +139,31 @@ export default {
 }
 .img-slide {
     max-width: 80%;
+    max-height: 80vh;
+    z-index: 2;
+}
+.img-slide-full {
+    max-width: 80%;
     height: auto;
+}
+
+.slide-next {
+    height: 100vh;
+    width: 30%;
+    font-size: 60px;
+    position: absolute;
+    vertical-align: center;
+    text-align: right;
+    z-index: 1;
+    left: 70%;
+}
+.slide-prev {
+    height: 100vh;
+    width: 30%;
+    font-size: 60px;
+    vertical-align: center;
+    text-align: left;
+    z-index: 1;
+    position: absolute;
 }
 </style>

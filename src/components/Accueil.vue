@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-      <img class="img-accueil img-accueil-1" :src="require('@/assets/oeuvre/memoire/gravure/Insurrection.jpg')" />
+      <img class="img-accueil img-accueil-1" :src="require('@/assets/oeuvre/memoire/gravure/Alerte 1939.jpg')" />
       <img class="img-accueil img-accueil-2" :src="require('@/assets/oeuvre/memoire/peinture/Femmes pourchassées.jpg')" />
       <img class="img-accueil img-accueil-3" :src="require('@/assets/oeuvre/natures/peinture/Mangues et grenades.jpg')" />
       <img class="img-accueil img-accueil-4" :src="require('@/assets/oeuvre/paysages/peinture/Rocher de Sainte-Agnes pastel.jpg')" />

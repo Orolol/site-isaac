@@ -88,7 +88,7 @@ export default {
 <style scss>
 .biographie {
     width: 55%;
-    padding: 10% 0 0 17%;
+    padding: 12% 0 0 19%;
 }
 
 .photo {

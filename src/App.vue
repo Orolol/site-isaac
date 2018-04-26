@@ -7,28 +7,29 @@
 </template>
 
 <script>
-
 import wrapper from './views/wrapper'
 
 export default {
-  components: {
-    wrapper
-  },
-  name: 'app',
-  data(){
-    return {
-
+    components: {
+        wrapper
+    },
+    name: 'app',
+    data() {
+        return {}
     }
-  }
 }
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 
+body {
+    margin: 0px;
+    padding: 0px;
 }
 
 .themeblack  {
@@ -40,16 +41,15 @@ export default {
     width: 100%;
     /* display: flex;
     flex: 0 0 100%; */
-} 
+}
 
 .wrapper {
-  /* display: flex; */
+    /* display: flex; */
 }
 
 .themewhite {
     background-color: white;
     color: black;
 }
-
 </style>
 
