@@ -132,6 +132,13 @@
       "pays": "France",
       "annee": "2015",
       "nom": "PAYSAGES DE SAINTE-AGNÈS"
+    },
+    {
+      "id": "21",
+      "lieu": "BIBLIOTHEQUE POLONAISE DE PARIS",
+      "pays": "France",
+      "annee": "2018",
+      "nom": "REGISTRES DE VIE"
     }
   ]
 }

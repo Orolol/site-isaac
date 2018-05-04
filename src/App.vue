@@ -1,5 +1,5 @@
 <template>
-  <div id="app" :class="{ 'themeblack ' : $route.name != 'Homme', 'themewhite' : $route.name == 'Homme' }">
+  <div id="app" :class="{ 'themeblack' : $route.name != 'Homme', 'themewhite' : $route.name == 'Homme' }">
     <div class="wrapper" >
       <wrapper></wrapper>
     </div>
