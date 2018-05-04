@@ -51,7 +51,9 @@
   </transition>
   <transition name="fade">
     <div class="oeuvre" v-if="cat == 'catalogue'">
-
+        <img class="catalgue1" :src="require('@/assets/homme/catalogue1.jpg')"/>
+        <img class="catalgue2" :src="require('@/assets/homme/catalogue2.jpg')"/>
+        <span class="contact-catalogue">Pour recevoir ces catalogue veuillez nous contacter</span>
     </div>
   </transition>
   
@@ -86,6 +88,26 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scss>
+.contact-catalogue {
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* width: 100%; */
+    position: absolute;
+    left: 40%;
+    top: 95%;
+}
+.catalgue1 {
+    max-width: 25%;
+    top: 20%;
+    left: 18%;
+    position: absolute;
+}
+.catalgue2 {
+    max-width: 25%;
+    top: 20%;
+    left: 52%;
+    position: absolute;
+}
 .biographie {
     width: 55%;
     padding: 12% 0 0 19%;

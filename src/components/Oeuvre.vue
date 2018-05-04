@@ -14,7 +14,7 @@
         
         <div class="oeuvre-box">
           <div class="oeuvre-titre"><span>{{assets[0].titre}}</span></div>
-          <div class="oeuvre-details"><span>{{assets[0].date}}<br>{{assets[0].description}}<br>{{assets[0].dimension}}</span></div>
+          <div class="oeuvre-details"><span><span v-if="assets[0].description">{{assets[0].date}}</span><br v-if="assets[0].date">{{assets[0].description}}<br v-if="assets[0].description">{{assets[0].dimension}}</span></div>
         </div>
       </div>
   	</div>
@@ -29,7 +29,7 @@
         </div>
         <div class="slideshow-box">
             <div class="oeuvre-titre"><span>{{assets[slideshowCurrent].titre}}</span></div>
-            <div class="oeuvre-details"><span>{{assets[slideshowCurrent].date}}<br>{{assets[slideshowCurrent].description}}<br>{{assets[slideshowCurrent].dimension}}</span></div>
+            <div class="oeuvre-details"><span>{{assets[slideshowCurrent].date}}<br v-if="assets[slideshowCurrent].date">{{assets[slideshowCurrent].description}}<br>{{assets[slideshowCurrent].dimension}}</span></div>
         </div>
         <div class="back" @click="slideshow = false">RETOUR</div>
     </div>
