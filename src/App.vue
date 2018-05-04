@@ -32,7 +32,7 @@ body {
     padding: 0px;
 }
 
-.themeblack  {
+.themeblack {
     position: absolute;
     background-color: black;
     color: white;

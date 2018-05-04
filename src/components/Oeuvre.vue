@@ -8,7 +8,7 @@
         <p v-for="para in contenu">{{para}}</p>
       </div>
       <div class="oeuvre-oeuvre">
-        <div class="oeuvre-img" @click="slideshow = true">
+        <div class="oeuvre-img" @click="goSlide">
           <img class="img" :src="require('@/assets/oeuvre/' +cat+'/'+ type+'/' + assets[0].filename)" />
         </div>
         
@@ -21,9 +21,9 @@
 	</div>
   </transition>
   <transition name="fade">
-    <div class="slideshow"v-if="slideshow">
-      <div class="slide-next" @click="next"> > </div>  
-      <div class="slide-prev" @click="previous"> < </div>  
+    <div class="slideshow" v-if="slideshow">
+      <div class="slide-next" @click="next"> <span class="symbol-next"> > </span> </div>  
+      <div class="slide-prev" @click="previous"> <span class="symbol-prev"> < </span></div>  
       <div class="slideshow-img" >
             <img class="img-slide" @click="next" :src="require('@/assets/oeuvre/' +cat+'/'+ type+'/' + assets[slideshowCurrent].filename)" />
         </div>
@@ -69,6 +69,10 @@ export default {
         }
     },
     methods: {
+        goSlide() {
+            this.slideshowCurrent = 0
+            this.slideshow = true
+        },
         next() {
             this.slideshowCurrent ==
             datajson[this.cat].assets[this.type].length - 1
@@ -156,6 +160,15 @@ export default {
     text-align: right;
     z-index: 1;
     left: 70%;
+}
+.symbol-prev {
+    top: 40%;
+    position: absolute;
+}
+.symbol-next {
+    top: 40%;
+    right: 1px;
+    position: absolute;
 }
 .slide-prev {
     height: 100vh;
