@@ -3,7 +3,7 @@
     "titre": "MEMOIRE",
     "contenu": [
       "Une part essentielle, tragique, de l’œuvre d’Isaac Celnikier est consacrée au martyrologe du peuple juif. L’engagement pictural de l’artiste émane de son expérience même, celle du ghetto, des camps nazis, puis de l’oppression stalinienne. Ainsi sa peinture et sa gravure constituent-elles un acte viscéral d’être au monde, une forme de survie, sa dignité d’homme. Cette mise en mémoire matérielle et personnelle ne peut, à ses yeux, être saisie de façon pérenne que par l’œuvre d’art.",
-      "Les grandes compositions, peintures monumentales à l’huile, produites juste après la guerre, sur le thème du ghetto (Ghetto à l’Ange notamment), voient dominer les bleutés, bruns, gris et blancs, dans une construction équilibrée, poursuivies plus tard par d’autres (Révolte, Judith, par exemple) aux couleurs exaspérées, et nerveusement spatulées ; la forme allégorique, en référence à l’Antiquité biblique advient aussi (telle Massada au mouvement ascendant) comme la forme plus directe en lien avec l’histoire proche d’Israël (Kippour 73) Tandis qu’à travers la figure martyre de Jan Palach (Prague), c’est l’oppression stalinienne qui se donne à voir.",
+      "Les grandes compositions, peintures monumentales à l’huile sur toile, produites juste après la guerre, sur le thème du ghetto (Ghetto à l’Ange notamment), voient dominer les bleutés, bruns, gris et blancs, dans une construction équilibrée, poursuivies plus tard par d’autres (Révolte, Judith, par exemple) aux couleurs exaspérées, et nerveusement spatulées ; la forme allégorique, en référence à l’Antiquité biblique advient aussi (telle Massada au mouvement ascendant) comme la forme plus directe en lien avec l’histoire proche d’Israël (Kippour 73) Tandis qu’à travers la figure martyre de Jan Palach (Prague), c’est l’oppression stalinienne qui se donne à voir.",
       "La gravure est apparue, à son tour, comme un medium propice à l’expression des gouffres infernaux. Par l’eau-forte, la pointe sèche, le burin et l’aquatinte, dans l’interaction des noirs ténébreux et des blancheurs létales, l’entrelac des lignes, leur griffure et morsure, a pu remonter la force obscure tenaillant l’artiste. Ce qui donnera trois Suites : Polonaise, Ghetto et Camps. Elisabeth de Fontenay, n’a pas manqué d’y retrouver certains accents de Piranese, de Goya et de Rembrandt.",
       "À partir des années 50 sont produites les peintures monumentales sur le thème de la Shoah (Kaddish, Cendres, par exemple). Elles s’expriment tantôt à travers un dégradé de matière dense et touffue, où l’image se brouille et d’où pourtant émerge une représentation construite, tantôt à travers un  « sourd bichromatisme lugubre » (Denis Milhau) (ex. le Tryptique Birkenau). En complément, et surtout durant la dernière période de l’artiste, une série de toiles de petits, moyens et assez grands formats évoquent tour à tour la tendresse familiale perdue, ou les thèmes du ghetto et des camps.                    ",
       "Enfin, plusieurs très grands formats sont dédiés à des thèmes sereins, évocations bibliques (Le Cantique des Cantiques, Esther) aux couleurs éclatantes"
@@ -12,44 +12,44 @@
       "gravure": [
         {
           "titre": "3-13 Février 43, Bialystok (massacres)",
-          "date": "",
-          "description": "gravure,eau-forte",
-          "dimension": "",
+          "date": "1974",
+          "description": "eau-forte, burin, aquatinte au sucre couleur",
+          "dimension": "54,5 x 46",
           "filename": "3-13 Février 43, Bialystok (massacres).jpg"
         },
         {
           "titre": "Jour de sélection",
-          "date": "",
-          "description": "gravure,eau-forte",
-          "dimension": "",
+          "date": "1980/82",
+          "description": "pointe-sèche, burin",
+          "dimension": "39,5 x 32,7",
           "filename": "Jour de sélection.jpg"
         },
         {
           "titre": "Alerte 1939",
-          "date": "",
-          "description": "gravure,eau-forte",
-          "dimension": "",
+          "date": "1973",
+          "description": "aquatinte couleur",
+          "dimension": "54,5 x 63,5",
           "filename": "Alerte 1939.jpg"
         },
         {
-          "titre": "Départ de Buna-Auschwitz",
-          "date": "",
-          "description": "gravure,eau-forte",
-          "dimension": "",
+          "titre": "Départ de Buna-Auschwitz (18 janvier 1945)",
+          "date": "1996",
+          "description": "pointe-sèche, aquatinte couleur",
+          "dimension": "53,5 x 75",
           "filename": "Départ de Buna-Auschwitz.jpg"
         },
         {
           "titre": "Insurrection",
-          "date": "",
-          "description": "gravure,eau-forte",
-          "dimension": "",
+          "date": "1981",
+          "description": "eau-forte, aquatinte",
+          "dimension": "39,2 x 32,8",
           "filename": "Insurrection.jpg"
         },
         {
           "titre": "Jour de libération",
-          "date": "",
-          "description": "gravure,eau-forte",
-          "dimension": "",
+          "date": "1976",
+          "description": "aquatinte",
+          "dimension": "39,5 x 36,5",
           "filename": "Jour de libération.jpg"
         }
       ],
@@ -57,65 +57,94 @@
         {
           "titre": "4 femmes face aux fusils",
           "date": "",
-          "description": "peinture, huile",
+          "description": "huile sur toile",
           "dimension": "",
           "filename": "4 femmes face aux fusils.jpg"
         },
         {
-          "titre": "Aktion",
-          "date": "",
-          "description": "peinture, huile",
-          "dimension": "",
+          "titre": "Aktion \"ghetto Bialystok\"",
+          "date": "2002/2006",
+          "description": "huile sur toile",
+          "dimension": "46 x 55",
           "filename": "Aktion.jpg"
         },
         {
           "titre": "Femmes pourchassées",
-          "date": "",
-          "description": "peinture, huile",
-          "dimension": "",
+          "date": "1988",
+          "description": "huile sur toile",
+          "dimension": "21 x 32",
           "filename": "Femmes pourchassées.jpg"
         },
         {
-          "titre": "Hommes avant exécution",
-          "date": "",
-          "description": "peinture, huile",
-          "dimension": "",
+          "titre": "Hommes avant l'exécution II",
+          "date": "2008 ?",
+          "description": "huile sur toile",
+          "dimension": "46 x 55",
           "filename": "Hommes avant exécution.jpg"
         },
         {
           "titre": "Ghetto à l'ange",
           "date": "1958-1964",
-          "description": "peinture, huile",
+          "description": "huile sur toile",
           "dimension": "",
           "filename": "Ghetto à l'ange (1958-1964).jpg"
         },
         {
           "titre": "Massada",
           "date": "1971-1982",
-          "description": "peinture, huile",
+          "description": "huile sur toile",
           "dimension": "235 x 350",
           "filename": "Massada (1971-1982, 235 x 350).jpg"
         },
         {
           "titre": "Prague",
           "date": "1969",
-          "description": "peinture, huile",
+          "description": "huile sur toile",
           "dimension": " 230 x 200",
           "filename": "Prague (1969, 230 x 200).jpg"
         },
         {
           "titre": "Révolte",
           "date": "1983-1984",
-          "description": "peinture, huile",
+          "description": "huile sur toile",
           "dimension": "193 x 227",
           "filename": "Révolte (1983-1984, 193 x 227).jpg"
         },
         {
           "titre": "Cendres",
           "date": "1984-1986",
-          "description": "peinture, huile",
+          "description": "huile sur toile",
           "dimension": "193 x 227",
           "filename": "Cendres (1984-1986, 193 x 227).jpg"
+        },
+        {
+          "titre": "Les fiancées Juives I",
+          "date": "1990",
+          "description": "huile sur toile",
+          "dimension": "195 x 132",
+          "filename": "Les fiancées Juives I (1990, 195 x 132).jpg"
+        },
+
+        {
+          "titre": "Les fiancées Juives II",
+          "date": "1990",
+          "description": "huile sur toile",
+          "dimension": "195 x 132",
+          "filename": "Les fiancées Juives II (1990, 195 x 132).jpg"
+        },
+        {
+          "titre": "Les fiancées Juives III",
+          "date": "1990",
+          "description": "huile sur toile",
+          "dimension": "195 x 132",
+          "filename": "Les fiancées Juives III (1990, 195 x 132).jpg"
+        },
+        {
+          "titre": "Les fiancées Juives IV",
+          "date": "1990",
+          "description": "huile sur toile",
+          "dimension": "195 x 132",
+          "filename": "Les fiancées Juives IV (1990, 195 x 132).jpg"
         }
       ]
     }
@@ -129,23 +158,23 @@
       "peinture": [
         {
           "titre": "Arbre sur fond brillant",
-          "date": "",
-          "description": "peinture, huile",
-          "dimension": "",
+          "date": "1995",
+          "description": "huile sur toile",
+          "dimension": "45 x 36,6",
           "filename": "Arbre sur fond brillant.jpg"
         },
         {
-          "titre": "Faisan sur drapé rouge",
-          "date": "",
-          "description": "peinture, huile",
-          "dimension": "",
+          "titre": "Faisan au drapé rouge",
+          "date": "1973",
+          "description": "huile sur toile",
+          "dimension": "100 x 81",
           "filename": "Faisan sur drapé rouge.jpg"
         },
         {
           "titre": "Mangues et grenades",
-          "date": "",
-          "description": "peinture, huile",
-          "dimension": "",
+          "date": "2006",
+          "description": "huile sur toile",
+          "dimension": "46 x 55",
           "filename": "Mangues et grenades.jpg"
         }
       ]
@@ -154,57 +183,57 @@
   "paysages": {
     "titre": "PAYSAGES",
     "contenu": [
-      "En contrepoint du versant ténébreux de la vie et de l’œuvre d’IC, le travail sur le motif, constitue, aux dires même de l’artiste, une salutaire respiration. Un ensemble de paysages à l’huile, à l’aquarelle essentiellement, et dans une moindre mesure, dessins, fusains et gravures, manifestent son rapport à la terre, tour à tour enthousiaste et émerveillé, apaisant et harmonieux. Cet autre hymne à la vie évoqué pour ses portraits, Denis Milhau le décrit comme « un incoercible besoin de montrer qu’il l’a aimé comme sa propre chair. » Que ce soient les montagnes de la Côte d’Azur ou des Pyrénées, ou les collines de Provence, IC en montre soit les frondaisons humides et touffues soit les strates rocheuses lumineuses et colorées, avec souvent une sorte de sacralité attribuée au mont. Des vastes déserts de Judée à la terre brûlée et stratifiée, chargés d’histoire, émanent des accents mystiques et inspirés, avec une gamme de jaunes et ocres, sur fond dynamique, où parfois surgissent des rouges célestes incandescents. Ses plus rares marines dégagent le flou des grands espaces, tandis que ses cités et édifices sont empreints d’une sensibilité et écriture propres aux lieux chers et très investis tels qu’Amsterdam, Jérusalem, Venise, Sainte-Agnès, Belvès, ou le Quai Valmy."
+      "En contrepoint du versant ténébreux de la vie et de l’œuvre d’IC, le travail sur le motif, constitue, aux dires même de l’artiste, une salutaire respiration. Un ensemble de paysages à l’huile sur toile, à l’aquarelle essentiellement, et dans une moindre mesure, dessins, fusains et gravures, manifestent son rapport à la terre, tour à tour enthousiaste et émerveillé, apaisant et harmonieux. Cet autre hymne à la vie évoqué pour ses portraits, Denis Milhau le décrit comme « un incoercible besoin de montrer qu’il l’a aimé comme sa propre chair. » Que ce soient les montagnes de la Côte d’Azur ou des Pyrénées, ou les collines de Provence, IC en montre soit les frondaisons humides et touffues soit les strates rocheuses lumineuses et colorées, avec souvent une sorte de sacralité attribuée au mont. Des vastes déserts de Judée à la terre brûlée et stratifiée, chargés d’histoire, émanent des accents mystiques et inspirés, avec une gamme de jaunes et ocres, sur fond dynamique, où parfois surgissent des rouges célestes incandescents. Ses plus rares marines dégagent le flou des grands espaces, tandis que ses cités et édifices sont empreints d’une sensibilité et écriture propres aux lieux chers et très investis tels qu’Amsterdam, Jérusalem, Venise, Sainte-Agnès, Belvès, ou le Quai Valmy."
     ],
     "assets": {
       "peinture": [
         {
           "titre": "Ciel blanc sur Abu Tor, Jérusalem",
-          "date": "",
-          "description": "",
-          "dimension": "",
+          "date": "1988",
+          "description": "huile sur toile",
+          "dimension": "65 x 81",
           "filename": "Ciel blanc sur Abu Tor, Jérusalem.jpg"
         },
         {
           "titre": "Ciel Rouge sur Abu Tor, Jérusalem",
-          "date": "",
-          "description": "",
-          "dimension": "",
+          "date": "1988",
+          "description": "huile sur toile",
+          "dimension": "65 x 81",
           "filename": "Ciel Rouge sur Abu Tor, Jérusalem.jpg"
         },
         {
           "titre": "Rocher de Sainte-Agnes pastel",
-          "date": "",
-          "description": "",
-          "dimension": "",
+          "date": "1990",
+          "description": "huile sur toile",
+          "dimension": "65 x 81",
           "filename": "Rocher de Sainte-Agnes pastel.jpg"
         },
         {
-          "titre": "Mont Gramont I",
-          "date": "",
-          "description": "",
-          "dimension": "",
+          "titre": "Mont Gramont II",
+          "date": "Sans date",
+          "description": "huile sur toile",
+          "dimension": "61 x 50",
           "filename": "Mont Gramont I.jpg"
         },
         {
-          "titre": "rocher Ste Agnes Ocre",
-          "date": "",
-          "description": "",
-          "dimension": "",
+          "titre": "Rocher Sainte-Agnès Ocre",
+          "date": "1989",
+          "description": "huile sur toile",
+          "dimension": "50 x 61",
           "filename": "rocher Ste Agnes Ocre.jpg"
         },
         {
           "titre": "Mont des oliviers au ciel mouvementé",
-          "date": "",
-          "description": "",
-          "dimension": "",
+          "date": "1988",
+          "description": "huile sur toile",
+          "dimension": "61 x 73",
           "filename": "Mont des oliviers au ciel mouvementé.jpg"
         },
         {
           "titre": "Mont des Oliviers Tumultueux",
-          "date": "",
-          "description": "",
-          "dimension": "",
+          "date": "1988",
+          "description": "huile sur toile",
+          "dimension": "65 x 81",
           "filename": "Mont des Oliviers Tumultueux.jpg"
         }
       ]
@@ -218,47 +247,19 @@
     "assets": {
       "peinture": [
         {
-          "titre": "Anne sur fond rouge (nu)",
-          "date": "",
-          "description": "",
-          "dimension": "",
+          "titre": "Nu sur fond rouge",
+          "date": "1989",
+          "description": "huile sur toile",
+          "dimension": "89 x 116",
           "filename": "Anne sur fond rouge (nu).jpg"
         },
 
         {
           "titre": "Nu accoudé doré",
-          "date": "",
-          "description": "",
-          "dimension": "",
+          "date": "1989 / 1990",
+          "description": "huile sur toile",
+          "dimension": "65 x 80",
           "filename": "Nu accoudé doré.jpg"
-        },
-        {
-          "titre": "Les fiancées Juives I",
-          "date": "1990",
-          "description": "",
-          "dimension": "195 x 132",
-          "filename": "Les fiancées Juives I (1990, 195 x 132).jpg"
-        },
-        {
-          "titre": "Les fiancées Juives II",
-          "date": "1990",
-          "description": "",
-          "dimension": "195 x 132",
-          "filename": "Les fiancées Juives II (1990, 195 x 132).jpg"
-        },
-        {
-          "titre": "Les fiancées Juives III",
-          "date": "1990",
-          "description": "",
-          "dimension": "195 x 132",
-          "filename": "Les fiancées Juives III (1990, 195 x 132).jpg"
-        },
-        {
-          "titre": "Les fiancées Juives IV",
-          "date": "1990",
-          "description": "",
-          "dimension": "195 x 132",
-          "filename": "Les fiancées Juives IV (1990, 195 x 132).jpg"
         }
       ]
     }
@@ -272,107 +273,107 @@
       "peinture": [
         {
           "titre": "Alain à la chemise blanche",
-          "date": "",
-          "description": "",
-          "dimension": "",
+          "date": "1972",
+          "description": "huile sur toile",
+          "dimension": "65 x 54",
           "filename": "Alain à la chemise blanche.jpg"
         },
         {
           "titre": "Anne à l'écharpe rouge",
-          "date": "",
-          "description": "peinture, huile",
-          "dimension": "",
+          "date": "1985",
+          "description": "huile sur toile",
+          "dimension": "116 x 89",
           "filename": "Anne à l'écharpe rouge.jpg"
         },
         {
           "titre": "Anne au pancho rouge et noire",
           "date": "",
-          "description": "peinture, huile",
+          "description": "huile sur toile",
           "dimension": "",
           "filename": "Anne au pancho rouge et noire.jpg"
         },
         {
           "titre": "Anne en robe bédouine jaune",
-          "date": "",
-          "description": "peinture, huile",
-          "dimension": "",
+          "date": "1982",
+          "description": "huile sur toile",
+          "dimension": "92 x 73",
           "filename": "Anne en robe bédouine jaune.jpg"
         },
         {
           "titre": "Anne et Sarah rouge et blanc",
-          "date": "",
-          "description": "",
-          "dimension": "",
+          "date": "1990",
+          "description": "huile sur toile",
+          "dimension": "92 x 73",
           "filename": "Anne et Sarah rouge et blanc.jpg"
         },
         {
           "titre": "Anne et Yoshua",
-          "date": "",
-          "description": "",
-          "dimension": "",
+          "date": "1982",
+          "description": "huile sur toile",
+          "dimension": "102 x 84",
           "filename": "Anne et Yoshua.jpg"
         },
         {
           "titre": "Autoportrait au chevalet",
-          "date": "",
-          "description": "",
-          "dimension": "",
+          "date": "1983",
+          "description": "huile sur toile",
+          "dimension": "116 x 89",
           "filename": "Autoportrait au chevalet.jpg"
         },
         {
           "titre": "Autoportrait bleu",
-          "date": "",
-          "description": "",
-          "dimension": "",
+          "date": "1985 / ?",
+          "description": "huile sur toile",
+          "dimension": "46,5 x 38 ",
           "filename": "Autoportrait bleu.jpg"
         },
         {
           "titre": "Autoportrait I",
-          "date": "",
-          "description": "",
-          "dimension": "",
+          "date": "1985 / ?",
+          "description": "huile sur toile",
+          "dimension": "46,5 x 38",
           "filename": "Autoportrait I.jpg"
         },
         {
-          "titre": "Gladys Bleue",
-          "date": "",
-          "description": "",
-          "dimension": "",
+          "titre": "Gladys",
+          "date": "1983",
+          "description": "huile sur toile",
+          "dimension": "81 x 65",
           "filename": "Gladys Bleue.jpg"
         },
         {
           "titre": "Marc II",
-          "date": "",
-          "description": "",
-          "dimension": "",
+          "date": "2002",
+          "description": "huile sur toile",
+          "dimension": "46 x 37",
           "filename": "Marc II.jpg"
         },
         {
           "titre": "Anne voile bleu",
           "date": "",
-          "description": "",
+          "description": "huile sur toile",
           "dimension": "",
           "filename": "Anne voile bleu_1.jpg"
         },
         {
           "titre": "Anne pensive",
           "date": "",
-          "description": "peinture, aquarelle",
+          "description": "aquarelle",
           "dimension": "",
           "filename": "Anne pensive (Aquarelle)_1.jpg"
         },
         {
           "titre": "Anne en tunique rose et turban",
           "date": "",
-          "description": "",
+          "description": "huile sur toile",
           "dimension": "",
           "filename": "Anne en tunique rose et turban_1.jpg"
         },
         {
-          "titre": "Anne enceinte",
-          "date": "",
-          "description": "",
-          "dimension": "",
+          "titre": "Anne enceinte accoudée",
+          "date": "1980",
+          "description": "huile sur toile",
+          "dimension": "81 x 65",
           "filename": "Anne enceinte.jpg"
         }
       ]

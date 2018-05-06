@@ -105,7 +105,7 @@ export default {
 }
 
 .back {
-    padding: 50px;
+    padding-top: 10px;
     z-index: 2;
 }
 
@@ -127,8 +127,11 @@ export default {
     padding: 0 0 0 45%;
 }
 .oeuvre-texte {
-    top: 150px;
-    padding: 10% 0 0 0;
+    top: 20%;
+    padding: 5% 0 0 0;
+    overflow-y:hidden;
+    /* height: 80vh; */
+
     /* width: 30%; */
 }
 

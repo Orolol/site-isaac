@@ -138,7 +138,7 @@ export default {
 .main-menu {
     z-index: 1;
     width: 200px;
-    height: 15px;
+    height: 17px;
     font-size: 12px;
 
     &:hover {
