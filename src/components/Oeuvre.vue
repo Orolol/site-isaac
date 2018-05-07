@@ -21,17 +21,21 @@
 	</div>
   </transition>
   <transition name="fade">
-    <div class="slideshow" v-if="slideshow">
-      <div class="slide-next" @click="next"> <span class="symbol-next"> > </span> </div>  
-      <div class="slide-prev" @click="previous"> <span class="symbol-prev"> < </span></div>  
-      <div class="slideshow-img" >
+    <div class="slideshow" v-if="slideshow" v-shortkey="['arrowup', 'arrowdown']" @shortkey="slideshow = false">
+     
+      <div class="slide-prev" @click="previous" v-shortkey="['arrowleft']" @shortkey="previous"> <span class="symbol-prev"> < </span></div>  
+         
+        <div class="slideshow-img" >
             <img class="img-slide" @click="next" :src="require('@/assets/oeuvre/' +cat+'/'+ type+'/' + assets[slideshowCurrent].filename)" />
-        </div>
-        <div class="slideshow-box">
+             <div class="slideshow-box">
             <div class="oeuvre-titre"><span>{{assets[slideshowCurrent].titre}}</span></div>
             <div class="oeuvre-details"><span>{{assets[slideshowCurrent].date}}<br v-if="assets[slideshowCurrent].date">{{assets[slideshowCurrent].description}}<br>{{assets[slideshowCurrent].dimension}}</span></div>
+            <div class="back" @click="slideshow = false" >RETOUR</div>
+            </div>
         </div>
-        <div class="back" @click="slideshow = false">RETOUR</div>
+        <div class="slide-next" @click="next" v-shortkey="['arrowright']" @shortkey="next"> <span class="symbol-next"> > </span> </div>
+    
+   
     </div>
   </transition>
 </div>
@@ -107,6 +111,7 @@ export default {
 .back {
     padding-top: 10px;
     z-index: 2;
+    font-weight: bold;
 }
 
 .oeuvre-texte-content {
@@ -118,13 +123,16 @@ export default {
     min-width: 100%;
     text-align: center;
     position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
 
 .oeuvre-oeuvre {
     position: absolute;
     top: 30%;
     /* width: 30%; */
-    padding: 0 0 0 45%;
+    padding: 0 0 0 35%;
 }
 .oeuvre-texte {
     top: 20%;
@@ -136,16 +144,27 @@ export default {
 }
 
 .oeuvre {
-    width: 40%;
-    padding: 10% 0 0 15%;
+    width: 30%;
+    padding: 10% 0 0 22%;
 }
 
 .img {
     max-width: auto;
     max-height: 50vh;
+    
 }
+
+.oeuvre-img:hover {
+        cursor: pointer;
+    }
+.back:hover {
+        cursor: pointer;
+    }
+
+
 .img-slide {
-    max-width: 80%;
+    /* max-width: 80%; */
+    margin-top: 5px;
     max-height: 80vh;
     z-index: 2;
 }
@@ -155,31 +174,42 @@ export default {
 }
 
 .slide-next {
+    display: flex;
     height: 100vh;
-    width: 30%;
+    width: 50%;
     font-size: 60px;
-    position: absolute;
+    /* position: absolute; */
     vertical-align: center;
-    text-align: right;
+    /* text-align: right; */
     z-index: 1;
-    left: 70%;
+    /* left: 70%; */
 }
 .symbol-prev {
     top: 40%;
     position: absolute;
+    margin: 10px;
+    /* right: 1px; */
 }
 .symbol-next {
     top: 40%;
-    right: 1px;
+    /* right: 1px; */
+    margin: 10px;
     position: absolute;
 }
 .slide-prev {
+    display: flex;
     height: 100vh;
-    width: 30%;
+    width: 50%;
     font-size: 60px;
-    vertical-align: center;
-    text-align: left;
+    justify-content: flex-end;
     z-index: 1;
-    position: absolute;
+    /* position: absolute; */
+    
 }
+.slide-prev:hover {
+        cursor: pointer;
+    }
+.slide-next:hover {
+        cursor: pointer;
+    }
 </style>

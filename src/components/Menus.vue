@@ -112,7 +112,7 @@ export default {
 .menu-right {
     text-align: right;
     // position: relative;
-    padding: 50px;
+    padding: 40px;
     float: right;
     // top: 100px;
     // left: 100%;
@@ -124,7 +124,7 @@ export default {
 
 .inner-menu-right {
     position: relative;
-    top: 50px;
+    top: 40px;
 }
 
 .menu-left {
@@ -144,11 +144,13 @@ export default {
     &:hover {
         cursor: pointer;
         .menu-title {
+            z-index: 99;
             font-weight: bold;
             cursor: pointer;
         }
 
         .leaf-menu {
+            z-index: 99;
             display: block;
             cursor: pointer;
         }

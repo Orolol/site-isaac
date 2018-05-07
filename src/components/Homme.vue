@@ -53,7 +53,7 @@
     <div class="oeuvre" v-if="cat == 'catalogue'">
         <img class="catalgue1" :src="require('@/assets/homme/catalogue1.jpg')"/>
         <img class="catalgue2" :src="require('@/assets/homme/catalogue2.jpg')"/>
-        <span class="contact-catalogue">Pour recevoir ces catalogue veuillez nous contacter</span>
+        <router-link tag="span" class="contact-catalogue" to="/homme/contact/">Pour recevoir ces catalogues veuillez nous contacter</router-link>
     </div>
   </transition>
   
@@ -96,14 +96,18 @@ export default {
     left: 40%;
     top: 95%;
 }
+.contact-catalogue:hover {
+    cursor: pointer;
+}
 .catalgue1 {
-    max-width: 25%;
+    /* max-width: 23%; */
+    max-height: 70vh;
     top: 20%;
     left: 18%;
     position: absolute;
 }
 .catalgue2 {
-    max-width: 25%;
+    max-height: 70vh;
     top: 20%;
     left: 52%;
     position: absolute;
@@ -142,7 +146,9 @@ export default {
 .exposition {
     position: relative;
     top: 250px;
-    margin: 0 15% 0 12%;
+    /* margin: 0 20% 0 12%; */
+    left: 21%;
+    width: 55%;
 }
 
 .expo-solo,
@@ -155,9 +161,7 @@ export default {
     -webkit-flex-grow: 0;
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
-    width: 82%;
-    left: 10%;
-    right: 10%;
+    /* width: 82%; */
     padding-bottom: 6px;
     padding-top: 6px;
     border-bottom: 1px solid black;
