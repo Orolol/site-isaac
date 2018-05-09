@@ -50,7 +50,7 @@
     </div>
   </transition>
   <transition name="fade">
-    <div class="oeuvre" v-if="cat == 'catalogue'">
+    <div class="homme" v-if="cat == 'catalogue'">
         <img class="catalgue1" :src="require('@/assets/homme/catalogue1.jpg')"/>
         <img class="catalgue2" :src="require('@/assets/homme/catalogue2.jpg')"/>
         <router-link tag="span" class="contact-catalogue" to="/homme/contact/">Pour recevoir ces catalogues veuillez nous contacter</router-link>
@@ -101,20 +101,24 @@ export default {
 }
 .catalgue1 {
     /* max-width: 23%; */
+    max-width: 48%;
     max-height: 70vh;
-    top: 20%;
-    left: 18%;
+    top: 10%;
+    /* left: 18%; */
     position: absolute;
 }
 .catalgue2 {
     max-height: 70vh;
-    top: 20%;
-    left: 52%;
+    max-width: 48%;
+    top: 10%;
+    right: 1px;
     position: absolute;
 }
 .biographie {
-    width: 55%;
-    padding: 12% 0 0 19%;
+    /* width: 55%; */
+    padding-right: 10%;
+    padding-top: 10%;
+    /* padding: 12% 0 0 19%; */
 }
 
 .photo {
@@ -147,8 +151,8 @@ export default {
     position: relative;
     top: 250px;
     /* margin: 0 20% 0 12%; */
-    left: 21%;
-    width: 55%;
+    /* left: 21%; */
+    /* width: 55%; */
 }
 
 .expo-solo,

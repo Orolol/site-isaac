@@ -38,6 +38,7 @@ a {
 
 .isaac-accueil {
     font-size: 55px;
+    font-size: 3.5vmax;
     letter-spacing: 25px;
     cursor: pointer;
     top: 20%;
@@ -75,6 +76,8 @@ a {
 .home {
     background-image: url('/static/accueil.JPG');
     height: 100vh;
+    width: 100%;
+    left: 0px;
     background-repeat: no-repeat;
     background-size: cover;
 }

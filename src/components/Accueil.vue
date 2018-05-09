@@ -37,29 +37,27 @@ a {
 }
 
 .img-accueil {
-    max-width: 30%;
-    
+    max-width: 40%;
+
     position: absolute;
 }
 
 .img-accueil-1 {
     top: 15%;
-    left: 25%;
-    max-height: 30vh;
+    max-height: 38vh;
 }
 .img-accueil-2 {
     top: 15%;
     left: 55%;
-    max-height: 40vh;
+    max-height: 38vh;
 }
 .img-accueil-3 {
     top: 60%;
-    left: 25%;
-    max-height: 30vh;
+    max-height: 38vh;
 }
 .img-accueil-4 {
-    top: 65%;
+    top: 62%;
     left: 55%;
-    max-height: 30vh;
+    max-height: 38vh;
 }
 </style>

@@ -88,7 +88,8 @@ export default {
 <style scoped lang="scss">
 .isaac {
     font-size: 26px;
-    letter-spacing: 6px;
+    font-size: 1.5vmax;
+    letter-spacing: 8px;
     cursor: pointer;
 }
 
@@ -99,26 +100,38 @@ export default {
 
 .left-title {
     font-size: 22px;
+    font-size: 1.4vmax;
     top: -20px;
     position: relative;
 }
 
 .right-title {
     font-size: 22px;
+    font-size: 1.4vmax;
     top: -20px;
+    right: 30%;
     position: relative;
+}
+
+.menu-title {
+    font-size: 16px;
+    font-size: 0.84vmax;
+}
+.leaf-menu {
+    font-size: 16px;
+    font-size: 0.84vmax;
 }
 
 .menu-right {
     text-align: right;
     // position: relative;
-    padding: 40px;
+    padding: 3% 2% 0 0;
     float: right;
     // top: 100px;
     // left: 100%;
     .menu-title {
         float: left;
-        padding-left: 60px;
+        padding-left: 70%;
     }
 }
 
@@ -128,17 +141,19 @@ export default {
 }
 
 .menu-left {
+    width: 15%;
     float: left;
-    padding: 50px;
+    padding: 4% 0 0 1%;
     .menu-title {
         float: right;
+        padding-right: 20%;
     }
 }
 
 .main-menu {
     z-index: 1;
-    width: 200px;
-    height: 17px;
+    // width: 200px;
+    height: 1.2vmax;
     font-size: 12px;
 
     &:hover {
@@ -160,13 +175,13 @@ export default {
 .sub-menu-left {
     position: relative;
     // top: -14px;
-    left: 200px;
+    left: 80%;
     padding-left: 10px;
 }
 .sub-menu-right {
     position: relative;
-    top: -14px;
-    right: 150px;
+    top: -0.95vmax;
+    right: 35%;
 }
 
 .leaf-menu {

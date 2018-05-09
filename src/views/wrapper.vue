@@ -2,7 +2,7 @@
 <div >
     <Menus v-if="route != '/'"></Menus>
     <transition name="fade">
-        <router-view></router-view>
+        <router-view class="main-content-wrapper"></router-view>
     </transition>
     
 </div>
@@ -36,6 +36,14 @@ export default {
 .fade-enter,
 .fade-leave-to {
     opacity: 0;
+}
+
+.main-content-wrapper {
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    min-height: 100vh;
+    overflow: visible;
 }
 </style>
 

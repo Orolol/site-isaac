@@ -7,6 +7,7 @@
       <div class="oeuvre-texte-content">
         <p v-for="para in contenu">{{para}}</p>
       </div>
+    </div>
       <div class="oeuvre-oeuvre">
         <div class="oeuvre-img" @click="goSlide">
           <img class="img" :src="require('@/assets/oeuvre/' +cat+'/'+ type+'/' + assets[0].filename)" />
@@ -17,7 +18,7 @@
           <div class="oeuvre-details"><span><span v-if="assets[0].description">{{assets[0].date}}</span><br v-if="assets[0].date">{{assets[0].description}}<br v-if="assets[0].description">{{assets[0].dimension}}</span></div>
         </div>
       </div>
-  	</div>
+  	
 	</div>
   </transition>
   <transition name="fade">
@@ -30,7 +31,7 @@
              <div class="slideshow-box">
             <div class="oeuvre-titre"><span>{{assets[slideshowCurrent].titre}}</span></div>
             <div class="oeuvre-details"><span>{{assets[slideshowCurrent].date}}<br v-if="assets[slideshowCurrent].date">{{assets[slideshowCurrent].description}}<br>{{assets[slideshowCurrent].dimension}}</span></div>
-            <div class="back" @click="slideshow = false" >RETOUR</div>
+            <div class="back" @click="slideshow = false" >RETOUR &rarrhk;</div>
             </div>
         </div>
         <div class="slide-next" @click="next" v-shortkey="['arrowright']" @shortkey="next"> <span class="symbol-next"> > </span> </div>
@@ -109,7 +110,7 @@ export default {
 }
 
 .back {
-    padding-top: 10px;
+    padding-top: 12px;
     z-index: 2;
     font-weight: bold;
 }
@@ -120,52 +121,62 @@ export default {
 
 .slideshow {
     background: black;
-    min-width: 100%;
+    /* min-width: 100%; */
+    /* max-width: 60%; */
+    z-index: 1001;
+    position: fixed;
+    overflow: auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     text-align: center;
-    position: absolute;
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
 }
 
 .oeuvre-oeuvre {
-    position: absolute;
-    top: 30%;
+    /* position: absolute; */
+    padding-top: 20%;
+    width: 45%;
+    /* right: 1%; */
     /* width: 30%; */
-    padding: 0 0 0 35%;
+    /* padding: 0 0 0 5%; */
 }
 .oeuvre-texte {
     top: 20%;
-    padding: 5% 0 0 0;
-    overflow-y:hidden;
+    padding: 5% 5% 0 0;
+    overflow-y: hidden;
+    width: 60%;
     /* height: 80vh; */
 
     /* width: 30%; */
 }
 
 .oeuvre {
-    width: 30%;
-    padding: 10% 0 0 22%;
+    display: flex;
+    flex-direction: row;
+    padding: 10% 0 0 0;
 }
 
 .img {
     max-width: auto;
     max-height: 50vh;
-    
 }
 
 .oeuvre-img:hover {
-        cursor: pointer;
-    }
+    cursor: pointer;
+}
 .back:hover {
-        cursor: pointer;
-    }
-
+    cursor: pointer;
+}
 
 .img-slide {
     /* max-width: 80%; */
     margin-top: 5px;
     max-height: 80vh;
+    max-width: 80vw;
     z-index: 2;
 }
 .img-slide-full {
@@ -187,13 +198,13 @@ export default {
 .symbol-prev {
     top: 40%;
     position: absolute;
-    margin: 10px;
+    /* margin-right: 10px; */
     /* right: 1px; */
 }
 .symbol-next {
     top: 40%;
     /* right: 1px; */
-    margin: 10px;
+    /* margin-left: 10px; */
     position: absolute;
 }
 .slide-prev {
@@ -204,12 +215,11 @@ export default {
     justify-content: flex-end;
     z-index: 1;
     /* position: absolute; */
-    
 }
 .slide-prev:hover {
-        cursor: pointer;
-    }
+    cursor: pointer;
+}
 .slide-next:hover {
-        cursor: pointer;
-    }
+    cursor: pointer;
+}
 </style>
