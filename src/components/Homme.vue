@@ -88,14 +88,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scss>
-.contact-catalogue {
-    /* justify-content: center; */
-    /* text-align: center; */
-    /* width: 100%; */
-    position: absolute;
-    left: 40%;
-    top: 95%;
-}
 .contact-catalogue:hover {
     cursor: pointer;
 }
@@ -200,6 +192,15 @@ export default {
         text-transform: none;
         color: black;
     }
+
+    .contact-catalogue {
+        /* justify-content: center; */
+        /* text-align: center; */
+        /* width: 100%; */
+        position: absolute;
+        /* left: 20%; */
+        top: 50%;
+    }
 }
 @media only screen and (min-device-width: 640px) {
     .photo {
@@ -273,6 +274,15 @@ export default {
         text-decoration: none;
         text-transform: none;
         color: black;
+    }
+
+    .contact-catalogue {
+        /* justify-content: center; */
+        /* text-align: center; */
+        /* width: 100%; */
+        position: absolute;
+        left: 30%;
+        top: 95%;
     }
 }
 

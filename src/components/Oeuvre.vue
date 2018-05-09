@@ -115,10 +115,6 @@ export default {
     font-weight: bold;
 }
 
-.oeuvre-texte-content {
-    font-size: 1vmax;
-}
-
 .slideshow {
     background: black;
     /* min-width: 100%; */
@@ -150,9 +146,9 @@ export default {
         border: 1px red;
         display: flex;
         flex-direction: column;
-        padding: 10% 0 0 0;
+        /* padding: 10% 0 0 0; */
         overflow-y: auto;
-        height: 100%;
+        height: 100vh;
     }
 
     .oeuvre-texte {
@@ -177,12 +173,26 @@ export default {
         max-height: 50vh;
         max-width: 50vw;
     }
+
+    .oeuvre-texte-content {
+        font-size: 1.8vw;
+        overflow: auto;
+        max-height: 90%;
+    }
+
+    .oeuvre-details {
+        font-size: 1.8vw;
+    }
+    .oeuvre-titre {
+        font-size: 1.8vw;
+    }
 }
 @media only screen and (min-device-width: 640px) {
     .oeuvre {
         display: flex;
         flex-direction: row;
-        padding: 10% 0 0 0;
+        height: 100vh;
+        padding: 0 0 0 0;
     }
 
     .oeuvre-texte {
@@ -205,6 +215,20 @@ export default {
     .img {
         max-width: auto;
         max-height: 50vh;
+        max-width: 30vw;
+    }
+
+    .oeuvre-texte-content {
+        font-size: 0.9vw;
+        overflow: auto;
+        max-height: 90%;
+    }
+
+    .oeuvre-details {
+        font-size: 0.9vw;
+    }
+    .oeuvre-titre {
+        font-size: 0.9vw;
     }
 }
 

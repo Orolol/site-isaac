@@ -288,8 +288,8 @@ export default {
     .sub-menu-left {
         position: relative;
         // top: -14px;
-        left: 15%;
-        top: -99%;
+        left: 19%;
+        top: -110%;
 
         // padding-left: 10px;
     }
