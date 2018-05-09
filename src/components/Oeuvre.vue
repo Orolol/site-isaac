@@ -116,7 +116,7 @@ export default {
 }
 
 .oeuvre-texte-content {
-    font-size: 14px;
+    font-size: 1vmax;
 }
 
 .slideshow {
@@ -144,25 +144,68 @@ export default {
     /* width: 30%; */
     /* padding: 0 0 0 5%; */
 }
-.oeuvre-texte {
-    top: 20%;
-    padding: 5% 5% 0 0;
-    overflow-y: hidden;
-    width: 60%;
-    /* height: 80vh; */
 
-    /* width: 30%; */
+@media only screen and (max-device-width: 640px) {
+    .oeuvre {
+        border: 1px red;
+        display: flex;
+        flex-direction: column;
+        padding: 10% 0 0 0;
+        overflow-y: auto;
+        height: 100%;
+    }
+
+    .oeuvre-texte {
+        top: 20%;
+        padding: 5% 5% 0 0;
+        overflow-y: hidden;
+        width: 80%;
+        /* height: 80vh; */
+
+        /* width: 30%; */
+    }
+    .oeuvre-oeuvre {
+        /* position: absolute; */
+        padding-top: 20%;
+        width: 35%;
+        /* right: 1%; */
+        /* width: 30%; */
+        /* padding: 0 0 0 5%; */
+    }
+    .img {
+        max-width: auto;
+        max-height: 50vh;
+        max-width: 50vw;
+    }
 }
+@media only screen and (min-device-width: 640px) {
+    .oeuvre {
+        display: flex;
+        flex-direction: row;
+        padding: 10% 0 0 0;
+    }
 
-.oeuvre {
-    display: flex;
-    flex-direction: row;
-    padding: 10% 0 0 0;
-}
+    .oeuvre-texte {
+        top: 20%;
+        padding: 5% 5% 0 0;
+        overflow-y: hidden;
+        width: 60%;
+        /* height: 80vh; */
 
-.img {
-    max-width: auto;
-    max-height: 50vh;
+        /* width: 30%; */
+    }
+    .oeuvre-oeuvre {
+        /* position: absolute; */
+        padding-top: 20%;
+        width: 45%;
+        /* right: 1%; */
+        /* width: 30%; */
+        /* padding: 0 0 0 5%; */
+    }
+    .img {
+        max-width: auto;
+        max-height: 50vh;
+    }
 }
 
 .oeuvre-img:hover {

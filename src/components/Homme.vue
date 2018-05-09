@@ -119,40 +119,161 @@ export default {
     padding-right: 10%;
     padding-top: 10%;
     /* padding: 12% 0 0 19%; */
+    font-size: 1.1vw;
 }
 
-.photo {
-    padding: 10% 0 5% 50%;
-}
+@media only screen and (max-device-width: 640px) {
+    .photo {
+        padding: 10% 0 5% 50%;
+        max-width: 50vw;
+    }
 
-.intro {
-    font-size: 22px;
-    width: 55%;
-    padding: 0 0 0 20%;
-}
+    .intro {
+        font-size: 2.5vw;
+        width: 90%;
+        padding: 0 0 0 5%;
+    }
 
-.expo-nom {
-    width: 40%;
-}
-.expo-lieu {
-    width: 37%;
-    text-align: right;
-    padding-right: 15px;
-}
-.expo-pays {
-    width: 5%;
-    padding-right: 15px;
-}
-.expo-annee {
-    width: 5%;
-}
+    .biographie {
+        /* width: 55%; */
+        padding-right: 10%;
+        padding-top: 10%;
+        /* padding: 12% 0 0 19%; */
+        font-size: 2.2vw;
+    }
 
-.exposition {
-    position: relative;
-    top: 250px;
-    /* margin: 0 20% 0 12%; */
-    /* left: 21%; */
-    /* width: 55%; */
+    .expo-nom {
+        font-size: 1.8vw;
+        width: 40%;
+    }
+    .expo-lieu {
+        font-size: 1.8vw;
+        width: 35%;
+        text-align: right;
+        padding-right: 5px;
+    }
+    .expo-pays {
+        font-size: 1.8vw;
+        width: 10%;
+        padding-right: 5px;
+    }
+    .expo-annee {
+        font-size: 1.8vw;
+        width: 9%;
+    }
+
+    .exposition {
+        font-size: 1.8vw;
+        position: relative;
+        top: 250px;
+        /* margin: 0 20% 0 12%; */
+        /* left: 21%; */
+        /* width: 55%; */
+    }
+
+    .contact-1 {
+        position: fixed;
+        left: 40%;
+        top: 30%;
+    }
+
+    .contact-1 span {
+        font-size: 12px;
+    }
+
+    .contact-2 {
+        position: fixed;
+        left: 20%;
+        top: 60%;
+    }
+    .contact-2 span {
+        font-size: 12px;
+    }
+
+    .contact-2 a,
+    .contact-1 a {
+        font-size: 2.5vw;
+        letter-spacing: 4px;
+        font-style: normal;
+        font-variant: normal;
+        text-decoration: none;
+        text-transform: none;
+        color: black;
+    }
+}
+@media only screen and (min-device-width: 640px) {
+    .photo {
+        padding: 10% 0 5% 50%;
+        max-width: 50vw;
+    }
+
+    .intro {
+        font-size: 1.7vw;
+        width: 90%;
+        padding: 0 0 0 5%;
+    }
+
+    .biographie {
+        /* width: 55%; */
+        padding-right: 10%;
+        padding-top: 10%;
+        /* padding: 12% 0 0 19%; */
+        font-size: 1.1vw;
+    }
+
+    .expo-nom {
+        width: 40%;
+    }
+    .expo-lieu {
+        width: 37%;
+        text-align: right;
+        padding-right: 15px;
+    }
+    .expo-pays {
+        width: 5%;
+        padding-right: 15px;
+    }
+    .expo-annee {
+        width: 5%;
+    }
+
+    .exposition {
+        position: relative;
+        top: 250px;
+        /* margin: 0 20% 0 12%; */
+        /* left: 21%; */
+        /* width: 55%; */
+    }
+
+    .contact-1 {
+        position: fixed;
+        left: 40%;
+        top: 30%;
+    }
+
+    .contact-1 span {
+        font-size: 12px;
+    }
+
+    .contact-2 {
+        position: fixed;
+        left: 20%;
+        top: 60%;
+    }
+    .contact-2 span {
+        font-size: 12px;
+    }
+
+    .contact-2 a,
+    .contact-1 a {
+        font-size: 30px;
+        letter-spacing: 4px;
+        font-style: normal;
+        font-variant: normal;
+        text-decoration: none;
+        text-transform: none;
+        color: black;
+    }
 }
 
 .expo-solo,
@@ -182,35 +303,5 @@ export default {
 .titre {
     font-weight: bold;
     text-align: right;
-}
-
-.contact-1 {
-    position: fixed;
-    left: 40%;
-    top: 30%;
-}
-
-.contact-1 span {
-    font-size: 12px;
-}
-
-.contact-2 {
-    position: fixed;
-    left: 20%;
-    top: 60%;
-}
-.contact-2 span {
-    font-size: 12px;
-}
-
-.contact-2 a,
-.contact-1 a {
-    font-size: 30px;
-    letter-spacing: 4px;
-    font-style: normal;
-    font-variant: normal;
-    text-decoration: none;
-    text-transform: none;
-    color: black;
 }
 </style>

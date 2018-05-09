@@ -86,108 +86,226 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-.isaac {
-    font-size: 26px;
-    font-size: 1.5vmax;
-    letter-spacing: 8px;
-    cursor: pointer;
-}
-
-.menu-wrapper {
-    position: fixed;
-    width: 100%;
-}
-
-.left-title {
-    font-size: 22px;
-    font-size: 1.4vmax;
-    top: -20px;
-    position: relative;
-}
-
-.right-title {
-    font-size: 22px;
-    font-size: 1.4vmax;
-    top: -20px;
-    right: 30%;
-    position: relative;
-}
-
-.menu-title {
-    font-size: 16px;
-    font-size: 0.84vmax;
-}
-.leaf-menu {
-    font-size: 16px;
-    font-size: 0.84vmax;
-}
-
-.menu-right {
-    text-align: right;
-    // position: relative;
-    padding: 3% 2% 0 0;
-    float: right;
-    // top: 100px;
-    // left: 100%;
-    .menu-title {
-        float: left;
-        padding-left: 70%;
-    }
-}
-
-.inner-menu-right {
-    position: relative;
-    top: 40px;
-}
-
-.menu-left {
-    width: 15%;
-    float: left;
-    padding: 4% 0 0 1%;
-    .menu-title {
-        float: right;
-        padding-right: 20%;
-    }
-}
-
-.main-menu {
-    z-index: 1;
-    // width: 200px;
-    height: 1.2vmax;
-    font-size: 12px;
-
-    &:hover {
+@media only screen and (min-device-width: 640px) {
+    .isaac {
+        font-size: 26px;
+        font-size: 1.5vmax;
+        letter-spacing: 8px;
         cursor: pointer;
-        .menu-title {
-            z-index: 99;
-            font-weight: bold;
-            cursor: pointer;
-        }
+    }
 
-        .leaf-menu {
-            z-index: 99;
-            display: block;
+    .menu-wrapper {
+        position: fixed;
+        width: 100%;
+    }
+
+    .left-title {
+        font-size: 22px;
+        font-size: 1.4vmax;
+        top: -20px;
+        position: relative;
+    }
+
+    .right-title {
+        font-size: 22px;
+        font-size: 1.4vmax;
+        top: -20px;
+        right: 30%;
+        position: relative;
+    }
+
+    .menu-title {
+        font-size: 16px;
+        font-size: 0.84vmax;
+    }
+    .leaf-menu {
+        font-size: 16px;
+        font-size: 0.84vmax;
+    }
+
+    .menu-right {
+        text-align: right;
+        // position: relative;
+        padding: 3% 2% 0 0;
+        float: right;
+        // top: 100px;
+        // left: 100%;
+        .menu-title {
+            float: left;
+            padding-left: 70%;
+        }
+    }
+
+    .inner-menu-right {
+        position: relative;
+        top: 40px;
+    }
+
+    .menu-left {
+        width: 15%;
+        float: left;
+        padding: 4% 0 0 1%;
+        .menu-title {
+            float: right;
+            padding-right: 20%;
+        }
+    }
+
+    .main-menu {
+        z-index: 1;
+        // width: 200px;
+        height: 1.2vmax;
+        font-size: 12px;
+
+        &:hover {
             cursor: pointer;
+            .menu-title {
+                z-index: 99;
+                font-weight: bold;
+                cursor: pointer;
+            }
+
+            .leaf-menu {
+                z-index: 99;
+                display: block;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .sub-menu-left {
+        position: relative;
+        // top: -14px;
+        left: 80%;
+        padding-left: 10px;
+    }
+    .sub-menu-right {
+        position: relative;
+        top: -0.95vmax;
+        right: 35%;
+    }
+
+    .leaf-menu {
+        display: none;
+        &:hover {
+            font-weight: bold;
         }
     }
 }
 
-.sub-menu-left {
-    position: relative;
-    // top: -14px;
-    left: 80%;
-    padding-left: 10px;
-}
-.sub-menu-right {
-    position: relative;
-    top: -0.95vmax;
-    right: 35%;
-}
+@media only screen and (max-device-width: 640px) {
+    .isaac {
+        font-size: 26px;
+        font-size: 1.5vmax;
+        letter-spacing: 8px;
+        cursor: pointer;
+    }
 
-.leaf-menu {
-    display: none;
-    &:hover {
-        font-weight: bold;
+    .menu-wrapper {
+        position: fixed;
+        width: 100%;
+        display: flex;
+    }
+
+    .left-title {
+        font-size: 22px;
+        font-size: 1.4vmax;
+        top: -20px;
+        position: relative;
+    }
+
+    .right-title {
+        font-size: 22px;
+        font-size: 1.4vmax;
+        top: -20px;
+        // right: 30%;
+        position: relative;
+    }
+
+    .menu-title {
+        font-size: 16px;
+        font-size: 0.84vmax;
+    }
+    .leaf-menu {
+        font-size: 16px;
+        font-size: 0.84vmax;
+    }
+
+    .menu-right {
+        text-align: right;
+        // position: absolute;
+        // padding: 3% 2% 0 0;
+        float: right;
+        top: 30%;
+        width: 50%;
+        // float: left;
+        // top: 100px;
+        // left: 100%;
+        .menu-title {
+            float: right;
+            // padding-left: 70%;
+        }
+    }
+
+    .inner-menu-right {
+        position: relative;
+        top: 40px;
+    }
+
+    .menu-left {
+        z-index: 2;
+        width: 50%;
+        float: left;
+        padding: 4% 0 0 1%;
+        .menu-title {
+            // float: right;
+            padding-right: 20%;
+        }
+    }
+
+    .main-menu {
+        z-index: 2;
+        // width: 200px;
+        height: 1.3vmax;
+        font-size: 1.2vmax;
+
+        &:hover {
+            cursor: pointer;
+            .menu-title {
+                z-index: 99;
+                font-weight: bold;
+                cursor: pointer;
+            }
+
+            .leaf-menu {
+                z-index: 99;
+                display: block;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .sub-menu-left {
+        position: relative;
+        // top: -14px;
+        left: 15%;
+        top: -99%;
+
+        // padding-left: 10px;
+    }
+    .sub-menu-right {
+        display: none;
+        position: relative;
+        top: -0.95vmax;
+        right: 35%;
+    }
+
+    .leaf-menu {
+        display: none;
+        z-index: 9555;
+        &:hover {
+            font-weight: bold;
+        }
     }
 }
 </style>
