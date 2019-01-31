@@ -2,19 +2,19 @@
   <div class="hello">
     <img
       class="img-accueil img-accueil-1"
-      :src="require('@/assets/oeuvre/memoire/gravure/Alerte_1939.jpg')"
+      :src="require('@/assets/oeuvre/memoire/gravure/Alerte_1939-th.jpg')"
     />
     <img
       class="img-accueil img-accueil-2"
-      :src="require('@/assets/oeuvre/portraits/peinture/Anne_à_l\'écharpe_rouge.jpg')"
+      :src="require('@/assets/oeuvre/portraits/peinture/Anne_à_lécharpe_rouge-th.jpg')"
     />
     <img
       class="img-accueil img-accueil-3"
-      :src="require('@/assets/oeuvre/natures/peinture/Mangues_et_grenades.jpg')"
+      :src="require('@/assets/oeuvre/natures/peinture/Mangues_et_grenades-th.jpg')"
     />
     <img
       class="img-accueil img-accueil-4"
-      :src="require('@/assets/oeuvre/paysages/peinture/Ciel_blanc_sur_Abu_Tor,_Jérusalem.jpg')"
+      :src="require('@/assets/oeuvre/paysages/peinture/Ciel_blanc_sur_Abu_Tor,_Jérusalem-th.jpg')"
     />
   </div>
 </template>
